@@ -129,9 +129,11 @@ AudioPlayer: CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o
 AudioPlayer: CMakeFiles/AudioPlayer.dir/build.make
 AudioPlayer: CMakeFiles/AudioPlayer.dir/compiler_depend.ts
 AudioPlayer: /usr/lib/libQt6Widgets.so.6.10.2
+AudioPlayer: /usr/lib/libQt6Multimedia.so.6.10.2
 AudioPlayer: /usr/lib/libQt6Gui.so.6.10.2
 AudioPlayer: /usr/lib/libGLX.so
 AudioPlayer: /usr/lib/libOpenGL.so
+AudioPlayer: /usr/lib/libQt6Network.so.6.10.2
 AudioPlayer: /usr/lib/libQt6Core.so.6.10.2
 AudioPlayer: CMakeFiles/AudioPlayer.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/grog/Code-Stuff/AudioPlayer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable AudioPlayer"
