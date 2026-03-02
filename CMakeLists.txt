@@ -9,6 +9,7 @@ find_package(Qt6 REQUIRED COMPONENTS
     Widgets
     Multimedia
     Gui
+    Core
 )
 
 qt_standard_project_setup()
@@ -23,4 +24,5 @@ target_link_libraries(AudioPlayer
     Qt6::Widgets
     Qt6::Multimedia
     Qt6::Gui
+    Qt6::Core
 )
