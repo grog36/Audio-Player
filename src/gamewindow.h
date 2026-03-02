@@ -5,6 +5,7 @@
 #include <QtMultimedia>
 
 class QPushButton;
+class QLabel;
 
 class GameWindow : public QWidget {
     Q_OBJECT;
@@ -18,6 +19,7 @@ class GameWindow : public QWidget {
         QMediaPlayer* player;
         QAudioOutput* audioOutput;
         QString filepath;
+        QLabel* gamePicture;
 
     private slots:
         void turnOnMusic();

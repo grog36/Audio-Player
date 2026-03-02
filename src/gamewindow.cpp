@@ -3,14 +3,26 @@
 
 //Constructor
 GameWindow::GameWindow(QWidget* parent) : QWidget(parent) {
+    //Start Button
     startButton = new QPushButton();
     startButton->setText("START");
-    //Visual stuff
+    startButton->setStyleSheet("background-color: green; color: white; font-size: 24px;");
+
+    //Game Picture
+    QPixmap* pixmap = new QPixmap("/home/grog/Code-Stuff/AudioPlayer/songs/Conker/Conker.jpg");
+    gamePicture = new QLabel();
+    gamePicture->setPixmap(*pixmap);
+
+    //Layout Stuff
     QGridLayout* mainLayout = new QGridLayout();
-    mainLayout->addWidget(startButton, 0, 0);
+    mainLayout->addWidget(gamePicture, 0, 0);
+    mainLayout->addWidget(startButton, 1, 0);
     setLayout(mainLayout);
+
+    //Window Title
     setWindowTitle(tr("Grog's Audio Player"));
 
+    //Signals and Slots
     connect(startButton, SIGNAL(pressed()), this, SLOT(turnOnMusic()));
 }
 
@@ -18,6 +30,8 @@ GameWindow::GameWindow(QWidget* parent) : QWidget(parent) {
 GameWindow::~GameWindow() {
     delete audioOutput;
     delete player;
+    delete gamePicture;
+    delete startButton;
 }
 
 void GameWindow::turnOnMusic() {
@@ -27,8 +41,8 @@ void GameWindow::turnOnMusic() {
     player->setAudioOutput(audioOutput);
     audioOutput->setMuted(false);
 
-    filepath = QString("/home/grog/OSTs/ZeldaOOT/KokiriForest.mp3");
+    filepath = QString("/home/grog/Code-Stuff/AudioPlayer/songs/Conker/Track8TheUggas.mp3");
     player->setSource(QUrl::fromLocalFile(filepath));
-    audioOutput->setVolume(0.5);
+    audioOutput->setVolume(1.0);
     player->play();
 }

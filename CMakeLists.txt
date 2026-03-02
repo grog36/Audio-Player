@@ -8,6 +8,7 @@ set(CMAKE_AUTOUIC ON)
 find_package(Qt6 REQUIRED COMPONENTS 
     Widgets
     Multimedia
+    Gui
 )
 
 qt_standard_project_setup()
@@ -21,4 +22,5 @@ add_executable(AudioPlayer
 target_link_libraries(AudioPlayer
     Qt6::Widgets
     Qt6::Multimedia
+    Qt6::Gui
 )
