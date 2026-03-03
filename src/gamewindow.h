@@ -38,7 +38,7 @@ class GameWindow : public QWidget {
         //Helper Methods
         void readSongs();
         void shuffleQueue();
-        int getRandomNumber(int max);
+        int getRandomNumber(int min, int max);
         std::string getNextSong();
         void getGame();
 

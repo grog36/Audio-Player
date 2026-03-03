@@ -1,8 +1,8 @@
 #include <QtWidgets>
 #include "gamewindow.h"
 #include <fstream>
-#include <iostream>
-#include <cstdlib>
+#include <random>
+#include <chrono>
 
 //Constructor
 GameWindow::GameWindow(QWidget* parent) : QWidget(parent) {
@@ -95,16 +95,18 @@ void GameWindow::shuffleQueue() {
     }
     
     for (int i = 0; i < songList.size(); i++) {
-        int currentRandomIndex = indexes[getRandomNumber(indexes.size())];
+        int currentRandomIndex = indexes[getRandomNumber(0, indexes.size() - 1)];
         indexes.erase(indexes.begin() + currentRandomIndex);
         songQueue.push(songList[currentRandomIndex]);
     }
 }
 
-//Generates a random number from [0, max)
-int GameWindow::getRandomNumber(int max) {
-    int random_num = std::rand();
-    return random_num % max;
+//Generates a random number from [min, max],
+int GameWindow::getRandomNumber(int min, int max) {
+    unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
+    std::mt19937 generator(seed);
+    std::uniform_int_distribution<int> distribution(min, max);
+    return distribution(generator);
 }
 
 std::string GameWindow::getNextSong() {
@@ -122,6 +124,4 @@ void GameWindow::getGame() {
     filepath.truncate(whereToTruncate);
     qsizetype gameNameBeginning = filepath.lastIndexOf("/") + 1;
     QString gameName = filepath.slice(gameNameBeginning);
-    filepath = filepath + "/" + gameName + ".png";
-    std::cout << filepath.toStdString() << std::endl;
 }
