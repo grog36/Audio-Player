@@ -248,6 +248,7 @@ CMakeFiles/AudioPlayer.dir/AudioPlayer_autogen/mocs_compilation.cpp.o: AudioPlay
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/15.2.1/bits/deque.tcc \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
@@ -307,6 +308,7 @@ CMakeFiles/AudioPlayer.dir/AudioPlayer_autogen/mocs_compilation.cpp.o: AudioPlay
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
+  /usr/include/c++/15.2.1/bits/stl_deque.h \
   /usr/include/c++/15.2.1/bits/stl_function.h \
   /usr/include/c++/15.2.1/bits/stl_heap.h \
   /usr/include/c++/15.2.1/bits/stl_iterator.h \
@@ -318,6 +320,7 @@ CMakeFiles/AudioPlayer.dir/AudioPlayer_autogen/mocs_compilation.cpp.o: AudioPlay
   /usr/include/c++/15.2.1/bits/stl_multiset.h \
   /usr/include/c++/15.2.1/bits/stl_numeric.h \
   /usr/include/c++/15.2.1/bits/stl_pair.h \
+  /usr/include/c++/15.2.1/bits/stl_queue.h \
   /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \
   /usr/include/c++/15.2.1/bits/stl_relops.h \
   /usr/include/c++/15.2.1/bits/stl_set.h \
@@ -361,6 +364,7 @@ CMakeFiles/AudioPlayer.dir/AudioPlayer_autogen/mocs_compilation.cpp.o: AudioPlay
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
   /usr/include/c++/15.2.1/debug/debug.h \
+  /usr/include/c++/15.2.1/deque \
   /usr/include/c++/15.2.1/exception \
   /usr/include/c++/15.2.1/experimental/source_location \
   /usr/include/c++/15.2.1/ext/aligned_buffer.h \
@@ -395,6 +399,7 @@ CMakeFiles/AudioPlayer.dir/AudioPlayer_autogen/mocs_compilation.cpp.o: AudioPlay
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_numeric_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
+  /usr/include/c++/15.2.1/queue \
   /usr/include/c++/15.2.1/random \
   /usr/include/c++/15.2.1/ratio \
   /usr/include/c++/15.2.1/set \
@@ -1237,6 +1242,7 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: /home/grog/Code-Stuff/AudioPlay
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/15.2.1/bits/deque.tcc \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
@@ -1297,6 +1303,7 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: /home/grog/Code-Stuff/AudioPlay
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
+  /usr/include/c++/15.2.1/bits/stl_deque.h \
   /usr/include/c++/15.2.1/bits/stl_function.h \
   /usr/include/c++/15.2.1/bits/stl_heap.h \
   /usr/include/c++/15.2.1/bits/stl_iterator.h \
@@ -1308,6 +1315,7 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: /home/grog/Code-Stuff/AudioPlay
   /usr/include/c++/15.2.1/bits/stl_multiset.h \
   /usr/include/c++/15.2.1/bits/stl_numeric.h \
   /usr/include/c++/15.2.1/bits/stl_pair.h \
+  /usr/include/c++/15.2.1/bits/stl_queue.h \
   /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \
   /usr/include/c++/15.2.1/bits/stl_relops.h \
   /usr/include/c++/15.2.1/bits/stl_set.h \
@@ -1351,6 +1359,7 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: /home/grog/Code-Stuff/AudioPlay
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
   /usr/include/c++/15.2.1/debug/debug.h \
+  /usr/include/c++/15.2.1/deque \
   /usr/include/c++/15.2.1/exception \
   /usr/include/c++/15.2.1/experimental/source_location \
   /usr/include/c++/15.2.1/ext/aligned_buffer.h \
@@ -1387,6 +1396,7 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: /home/grog/Code-Stuff/AudioPlay
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_numeric_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
+  /usr/include/c++/15.2.1/queue \
   /usr/include/c++/15.2.1/random \
   /usr/include/c++/15.2.1/ratio \
   /usr/include/c++/15.2.1/set \
@@ -2362,6 +2372,7 @@ CMakeFiles/AudioPlayer.dir/src/main.cpp.o: /home/grog/Code-Stuff/AudioPlayer/src
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/15.2.1/bits/deque.tcc \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
@@ -2421,6 +2432,7 @@ CMakeFiles/AudioPlayer.dir/src/main.cpp.o: /home/grog/Code-Stuff/AudioPlayer/src
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
+  /usr/include/c++/15.2.1/bits/stl_deque.h \
   /usr/include/c++/15.2.1/bits/stl_function.h \
   /usr/include/c++/15.2.1/bits/stl_heap.h \
   /usr/include/c++/15.2.1/bits/stl_iterator.h \
@@ -2432,6 +2444,7 @@ CMakeFiles/AudioPlayer.dir/src/main.cpp.o: /home/grog/Code-Stuff/AudioPlayer/src
   /usr/include/c++/15.2.1/bits/stl_multiset.h \
   /usr/include/c++/15.2.1/bits/stl_numeric.h \
   /usr/include/c++/15.2.1/bits/stl_pair.h \
+  /usr/include/c++/15.2.1/bits/stl_queue.h \
   /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \
   /usr/include/c++/15.2.1/bits/stl_relops.h \
   /usr/include/c++/15.2.1/bits/stl_set.h \
@@ -2475,6 +2488,7 @@ CMakeFiles/AudioPlayer.dir/src/main.cpp.o: /home/grog/Code-Stuff/AudioPlayer/src
   /usr/include/c++/15.2.1/cwctype \
   /usr/include/c++/15.2.1/debug/assertions.h \
   /usr/include/c++/15.2.1/debug/debug.h \
+  /usr/include/c++/15.2.1/deque \
   /usr/include/c++/15.2.1/exception \
   /usr/include/c++/15.2.1/experimental/source_location \
   /usr/include/c++/15.2.1/ext/aligned_buffer.h \
@@ -2509,6 +2523,7 @@ CMakeFiles/AudioPlayer.dir/src/main.cpp.o: /home/grog/Code-Stuff/AudioPlayer/src
   /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_numeric_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
+  /usr/include/c++/15.2.1/queue \
   /usr/include/c++/15.2.1/random \
   /usr/include/c++/15.2.1/ratio \
   /usr/include/c++/15.2.1/set \
@@ -3407,9 +3422,9 @@ CMakeFiles/AudioPlayer.dir/src/main.cpp.o: /home/grog/Code-Stuff/AudioPlayer/src
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xmmintrin.h:
 
-/usr/include/qt6/QtCore/qcomparehelpers.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/waitpkgintrin.h:
 
-/usr/include/c++/15.2.1/bits/unique_ptr.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vpclmulqdqintrin.h:
 
 /usr/include/qt6/QtCore/qcollator.h:
 
@@ -3540,8 +3555,6 @@ CMakeFiles/AudioPlayer.dir/src/main.cpp.o: /home/grog/Code-Stuff/AudioPlayer/src
 /usr/include/qt6/QtGui/qtextlayout.h:
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
-
-/usr/include/qt6/QtCore/qcompare_impl.h:
 
 /usr/include/qt6/QtCore/qcborstream.h:
 
@@ -3679,6 +3692,8 @@ CMakeFiles/AudioPlayer.dir/src/main.cpp.o: /home/grog/Code-Stuff/AudioPlayer/src
 
 /usr/include/c++/15.2.1/bits/version.h:
 
+/usr/include/c++/15.2.1/bits/unique_ptr.h:
+
 /usr/include/c++/15.2.1/bits/unique_lock.h:
 
 /usr/include/qt6/QtWidgets/qundoview.h:
@@ -3694,6 +3709,8 @@ CMakeFiles/AudioPlayer.dir/src/main.cpp.o: /home/grog/Code-Stuff/AudioPlayer/src
 /usr/include/c++/15.2.1/bits/stl_set.h:
 
 /usr/lib/libX11.so.6:
+
+/usr/include/c++/15.2.1/bits/stl_queue.h:
 
 /usr/include/qt6/QtNetwork/qhttp2configuration.h:
 
@@ -3769,17 +3786,19 @@ CMakeFiles/AudioPlayer.dir/src/main.cpp.o: /home/grog/Code-Stuff/AudioPlayer/src
 
 /usr/include/c++/15.2.1/bits/quoted_string.h:
 
+/usr/include/c++/15.2.1/queue:
+
 /usr/include/c++/15.2.1/bits/postypes.h:
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
 
 /usr/include/qt6/QtNetwork/qtnetworkglobal.h:
 
-/usr/include/qt6/QtCore/qcommandlineparser.h:
-
 /usr/include/qt6/QtWidgets/QScrollerProperties:
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
+
+/usr/include/qt6/QtCore/qcommandlineparser.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/rtmintrin.h:
 
@@ -3842,6 +3861,8 @@ CMakeFiles/AudioPlayer.dir/src/main.cpp.o: /home/grog/Code-Stuff/AudioPlayer/src
 /usr/include/qt6/QtMultimedia/qplaybackoptions.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/movdirintrin.h:
+
+/usr/include/qt6/QtCore/qfloat16.h:
 
 /usr/lib32/libGLdispatch.so.0:
 
@@ -4157,6 +4178,10 @@ AudioPlayer_autogen/UVLADIE3JM/moc_gamewindow.cpp:
 
 /usr/lib/Scrt1.o:
 
+/usr/include/c++/15.2.1/string_view:
+
+/usr/include/c++/15.2.1/bits/stl_numeric.h:
+
 /usr/lib/libharfbuzz.so.0:
 
 /usr/include/c++/15.2.1/bits/stl_list.h:
@@ -4327,6 +4352,8 @@ CMakeFiles/AudioPlayer.dir/AudioPlayer_autogen/mocs_compilation.cpp.o:
 
 /usr/include/c++/15.2.1/tr1/riemann_zeta.tcc:
 
+/usr/include/c++/15.2.1/bits/stl_deque.h:
+
 /usr/include/bits/types/clock_t.h:
 
 /usr/lib/libc.so.6:
@@ -4444,8 +4471,6 @@ AudioPlayer_autogen/mocs_compilation.cpp:
 /usr/include/c++/15.2.1/bits/locale_classes.h:
 
 /usr/include/asm-generic/bitsperlong.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vpclmulqdqintrin.h:
 
 /usr/include/qt6/QtWidgets/qsplitter.h:
 
@@ -4743,9 +4768,9 @@ AudioPlayer_autogen/mocs_compilation.cpp:
 
 /usr/include/qt6/QtCore/qpointer.h:
 
-/usr/include/c++/15.2.1/string_view:
+/usr/include/qt6/QtCore/qcompare_impl.h:
 
-/usr/include/c++/15.2.1/bits/stl_numeric.h:
+/usr/include/qt6/QtCore/qcomparehelpers.h:
 
 /usr/include/qt6/QtCore/qconstructormacros.h:
 
@@ -4781,6 +4806,10 @@ AudioPlayer_autogen/mocs_compilation.cpp:
 
 /usr/include/qt6/QtCore/qeventloop.h:
 
+/usr/include/qt6/QtNetwork/qdnslookup.h:
+
+/usr/include/qt6/QtCore/qexception.h:
+
 /usr/include/qt6/QtCore/qobjectdefs.h:
 
 /usr/include/qt6/QtGui/qiconengineplugin.h:
@@ -4802,8 +4831,6 @@ AudioPlayer_autogen/mocs_compilation.cpp:
 /usr/include/qt6/QtCore/QStringList:
 
 /usr/include/qt6/QtCore/qfilesystemwatcher.h:
-
-/usr/include/qt6/QtCore/qfloat16.h:
 
 /usr/include/qt6/QtCore/qfunctionaltools_impl.h:
 
@@ -4992,6 +5019,12 @@ AudioPlayer_autogen/mocs_compilation.cpp:
 /usr/include/qt6/QtCore/QUrl:
 
 /usr/include/qt6/QtCore/qregularexpression.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vaesintrin.h:
+
+/usr/include/c++/15.2.1/tr1/modified_bessel_func.tcc:
+
+/usr/include/qt6/QtCore/qstringconverter.h:
 
 /usr/include/qt6/QtWidgets/qgraphicsgridlayout.h:
 
@@ -5447,6 +5480,12 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o:
 
 /usr/include/qt6/QtNetwork/QNetworkRequest:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/wmmintrin.h:
+
+/usr/include/c++/15.2.1/bits/ptr_traits.h:
+
+/usr/include/qt6/QtMultimedia/qaudioinput.h:
+
 /usr/include/qt6/QtMultimedia/qcameradevice.h:
 
 /usr/include/qt6/QtCore/qsignalmapper.h:
@@ -5504,10 +5543,6 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o:
 /usr/include/qt6/QtNetwork/QtNetworkDepends:
 
 /usr/include/qt6/QtNetwork/qabstractsocket.h:
-
-/usr/include/qt6/QtCore/qexception.h:
-
-/usr/include/qt6/QtNetwork/qdnslookup.h:
 
 /usr/include/qt6/QtNetwork/qdtls.h:
 
@@ -5637,6 +5672,8 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o:
 
 /usr/include/c++/15.2.1/fstream:
 
+/usr/include/c++/15.2.1/bits/deque.tcc:
+
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16vlintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512vbmi2intrin.h:
@@ -5672,6 +5709,8 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/f16cintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/fmaintrin.h:
+
+/usr/include/c++/15.2.1/deque:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/gfniintrin.h:
 
@@ -5732,17 +5771,3 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tbmintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/tsxldtrkintrin.h:
-
-/usr/include/c++/15.2.1/tr1/modified_bessel_func.tcc:
-
-/usr/include/qt6/QtCore/qstringconverter.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/vaesintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/waitpkgintrin.h:
-
-/usr/include/c++/15.2.1/bits/ptr_traits.h:
-
-/usr/include/qt6/QtMultimedia/qaudioinput.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/wmmintrin.h:

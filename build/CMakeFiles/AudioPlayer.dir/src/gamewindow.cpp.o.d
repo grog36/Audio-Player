@@ -1170,7 +1170,11 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /usr/include/qt6/QtMultimedia/qwavedecoder.h \
  /usr/include/qt6/QtMultimedia/qwindowcapture.h \
  /usr/include/qt6/QtMultimedia/qcapturablewindow.h \
- /usr/include/c++/15.2.1/iostream /usr/include/c++/15.2.1/fstream \
+ /usr/include/c++/15.2.1/queue /usr/include/c++/15.2.1/deque \
+ /usr/include/c++/15.2.1/bits/stl_deque.h \
+ /usr/include/c++/15.2.1/bits/deque.tcc \
+ /usr/include/c++/15.2.1/bits/stl_queue.h /usr/include/c++/15.2.1/fstream \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
- /usr/include/c++/15.2.1/bits/fstream.tcc
+ /usr/include/c++/15.2.1/bits/fstream.tcc \
+ /usr/include/c++/15.2.1/iostream

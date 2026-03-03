@@ -111,6 +111,7 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
   /usr/include/c++/15.2.1/bits/cpp_type_traits.h \
   /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
   /usr/include/c++/15.2.1/bits/cxxabi_init_exception.h \
+  /usr/include/c++/15.2.1/bits/deque.tcc \
   /usr/include/c++/15.2.1/bits/enable_special_members.h \
   /usr/include/c++/15.2.1/bits/erase_if.h \
   /usr/include/c++/15.2.1/bits/exception.h \
@@ -155,6 +156,7 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_bvector.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
+  /usr/include/c++/15.2.1/bits/stl_deque.h \
   /usr/include/c++/15.2.1/bits/stl_function.h \
   /usr/include/c++/15.2.1/bits/stl_heap.h \
   /usr/include/c++/15.2.1/bits/stl_iterator.h \
@@ -166,6 +168,7 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
   /usr/include/c++/15.2.1/bits/stl_multiset.h \
   /usr/include/c++/15.2.1/bits/stl_numeric.h \
   /usr/include/c++/15.2.1/bits/stl_pair.h \
+  /usr/include/c++/15.2.1/bits/stl_queue.h \
   /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \
   /usr/include/c++/15.2.1/bits/stl_relops.h \
   /usr/include/c++/15.2.1/bits/stl_set.h \
@@ -207,6 +210,7 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
   /usr/include/c++/15.2.1/cwchar \
   /usr/include/c++/15.2.1/debug/assertions.h \
   /usr/include/c++/15.2.1/debug/debug.h \
+  /usr/include/c++/15.2.1/deque \
   /usr/include/c++/15.2.1/exception \
   /usr/include/c++/15.2.1/experimental/source_location \
   /usr/include/c++/15.2.1/ext/aligned_buffer.h \
@@ -234,6 +238,7 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
   /usr/include/c++/15.2.1/pstl/execution_defs.h \
   /usr/include/c++/15.2.1/pstl/glue_numeric_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
+  /usr/include/c++/15.2.1/queue \
   /usr/include/c++/15.2.1/random \
   /usr/include/c++/15.2.1/ratio \
   /usr/include/c++/15.2.1/set \
@@ -1409,8 +1414,6 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/hresetintrin.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/gfniintrin.h:
-
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/fmaintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/emmintrin.h:
@@ -1450,8 +1453,6 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512ifmavlintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512ifmaintrin.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16vlintrin.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16intrin.h:
 
@@ -1555,19 +1556,15 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 
 /usr/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniintrin.h:
+/usr/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake:
 
-/usr/include/qt6/QtCore/qtdeprecationmarkers.h:
+/usr/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/shaintrin.h:
+/usr/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake:
 
-/usr/include/locale.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bitalgintrin.h:
 
-/usr/include/qt6/QtCore/qtimeline.h:
-
-/usr/include/asm-generic/posix_types.h:
-
-/usr/include/qt6/QtCore/qtcoreglobal.h:
+/usr/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets-relwithdebinfo.cmake:
 
 /usr/include/qt6/QtNetwork/QtNetwork:
 
@@ -1605,10 +1602,6 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 
 /usr/include/qt6/QtGui/qdesktopservices.h:
 
-/usr/include/qt6/QtCore/qqueue.h:
-
-/usr/include/qt6/QtGui/qpixmap.h:
-
 /usr/include/qt6/QtCore/qpropertyprivate.h:
 
 /usr/include/bits/time64.h:
@@ -1616,6 +1609,10 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 /usr/include/qt6/QtCore/qpoint.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEvdevKeyboardPluginConfig.cmake:
+
+/usr/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake:
+
+/usr/include/qt6/QtCore/qoperatingsystemversion.h:
 
 /usr/include/qt6/QtCore/QSize:
 
@@ -1694,6 +1691,10 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 /usr/include/qt6/QtCore/qarraydataops.h:
 
 /usr/include/qt6/QtCore/qfloat16.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/gfniintrin.h:
+
+/usr/include/c++/15.2.1/deque:
 
 /usr/include/qt6/QtCore/qfileinfo.h:
 
@@ -1917,17 +1918,19 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 
 /usr/include/qt6/QtCore/QByteArray:
 
-/usr/include/qt6/QtCore/qtcoreversion.h:
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/shaintrin.h:
 
-/usr/include/c++/15.2.1/unordered_map:
+/usr/include/locale.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniintrin.h:
+
+/usr/include/qt6/QtCore/qtdeprecationmarkers.h:
+
+/usr/include/qt6/QtCore/qtimeline.h:
 
 /usr/include/linux/stddef.h:
 
 /usr/include/linux/sched/types.h:
-
-/usr/include/qt6/QtCore/qnamespace.h:
-
-/usr/include/qt6/QtCore/qcoreevent.h:
 
 /usr/include/qt6/QtGui/qbitmap.h:
 
@@ -2000,6 +2003,24 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 /usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentTargets.cmake:
 
 /usr/include/c++/15.2.1/unordered_set:
+
+/usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
+
+/usr/include/qt6/QtCore/qcompare_impl.h:
+
+/usr/include/qt6/QtCore/qcborstream.h:
+
+/usr/include/c++/15.2.1/type_traits:
+
+/usr/include/errno.h:
+
+/usr/include/qt6/QtCore/qtsan_impl.h:
+
+/usr/include/c++/15.2.1/tuple:
+
+/usr/include/c++/15.2.1/tr1/special_function_util.h:
+
+/usr/include/c++/15.2.1/bits/std_abs.h:
 
 /usr/include/qt6/QtCore/qplugin.h:
 
@@ -2119,13 +2140,27 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 
 /usr/include/qt6/QtCore/qpermissions.h:
 
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512bitalgintrin.h:
-
-/usr/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets-relwithdebinfo.cmake:
-
 /usr/include/qt6/QtCore/q20algorithm.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginConfig.cmake:
+
+/usr/include/qt6/QtCore/qqueue.h:
+
+/usr/include/qt6/QtCore/qbuffer.h:
+
+/usr/include/qt6/QtCore/qstringconverter_base.h:
+
+/usr/include/qt6/QtGui/qpixmap.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avx512fp16vlintrin.h:
+
+/usr/include/c++/15.2.1/bits/deque.tcc:
+
+/usr/include/qt6/QtCore/qexception.h:
+
+/usr/include/qt6/QtNetwork/qdnslookup.h:
+
+/usr/include/c++/15.2.1/tr1/legendre_function.tcc:
 
 /usr/include/c++/15.2.1/bits/char_traits.h:
 
@@ -2199,7 +2234,11 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 
 /usr/lib/cmake/Qt6Core/Qt6CoreAdditionalTargetInfo.cmake:
 
-/usr/include/bits/types/clock_t.h:
+/usr/include/bits/types/__fpos_t.h:
+
+/usr/include/c++/15.2.1/bits/string_view.tcc:
+
+/usr/include/qt6/QtGui/qvector2d.h:
 
 /usr/include/qt6/QtWidgets/qtwidgetsexports.h:
 
@@ -2210,12 +2249,6 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 /usr/include/qt6/QtCore/qstdlibdetection.h:
 
 /usr/include/bits/errno.h:
-
-/usr/include/errno.h:
-
-/usr/include/qt6/QtCore/qtsan_impl.h:
-
-/usr/include/c++/15.2.1/tuple:
 
 /usr/include/qt6/QtCore/qstringalgorithms.h:
 
@@ -2228,6 +2261,12 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 /usr/include/qt6/QtCore/qchronotimer.h:
 
 /usr/include/c++/15.2.1/pstl/execution_defs.h:
+
+/usr/include/qt6/QtCore/qbitarray.h:
+
+/usr/include/qt6/QtGui/qmovie.h:
+
+/usr/include/qt6/QtMultimedia/qtmultimedia-config.h:
 
 /usr/include/bits/stdio_lim.h:
 
@@ -2261,10 +2300,6 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 
 /usr/lib/cmake/Qt6Gui/Qt6QIbusPlatformInputContextPluginTargets-relwithdebinfo.cmake:
 
-/usr/include/c++/15.2.1/tr1/special_function_util.h:
-
-/usr/include/c++/15.2.1/bits/std_abs.h:
-
 /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake:
 
 /usr/include/bits/stdlib-float.h:
@@ -2289,9 +2324,13 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 
 /usr/include/qt6/QtCore/qsavefile.h:
 
-/usr/include/c++/15.2.1/bits/unique_lock.h:
+/usr/include/asm-generic/posix_types.h:
 
-/usr/include/asm/posix_types.h:
+/usr/include/c++/15.2.1/unordered_map:
+
+/usr/include/qt6/QtCore/qtcoreversion.h:
+
+/usr/include/c++/15.2.1/bits/unique_lock.h:
 
 /usr/include/qt6/QtCore/qidentityproxymodel.h:
 
@@ -2319,9 +2358,9 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 
 /usr/include/qt6/QtNetwork/qhttp2configuration.h:
 
-/usr/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessAliasTargets.cmake:
-
 CMakeFiles/4.2.3/CMakeSystem.cmake:
+
+/usr/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessAliasTargets.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QTuioTouchPluginConfig.cmake:
 
@@ -2366,6 +2405,8 @@ CMakeFiles/4.2.3/CMakeCXXCompiler.cmake:
 /usr/include/bits/time.h:
 
 /usr/include/c++/15.2.1/bits/stl_vector.h:
+
+/usr/include/asm/posix_types.h:
 
 /usr/include/c++/15.2.1/algorithm:
 
@@ -2559,8 +2600,6 @@ AudioPlayer_autogen/moc_predefs.h:
 
 /usr/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
 
-/usr/include/c++/15.2.1/type_traits:
-
 /usr/include/qt6/QtNetwork/qocspresponse.h:
 
 /usr/include/qt6/QtCore/qmalloc.h:
@@ -2629,6 +2668,8 @@ AudioPlayer_autogen/moc_predefs.h:
 
 /usr/include/c++/15.2.1/bits/streambuf.tcc:
 
+/usr/include/c++/15.2.1/queue:
+
 /usr/include/c++/15.2.1/condition_variable:
 
 /usr/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets-relwithdebinfo.cmake:
@@ -2677,6 +2718,22 @@ AudioPlayer_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtCore/QMap:
 
+/usr/include/bits/types/clock_t.h:
+
+/usr/include/c++/15.2.1/bits/stl_deque.h:
+
+/usr/include/bits/types/clockid_t.h:
+
+/usr/include/bits/stdint-intn.h:
+
+/usr/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
+
+/usr/include/c++/15.2.1/bits/specfun.h:
+
+/usr/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake:
+
+/usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentAdditionalTargetInfo.cmake:
+
 /usr/include/c++/15.2.1/bits/refwrap.h:
 
 /usr/include/c++/15.2.1/bits/stl_iterator.h:
@@ -2696,6 +2753,10 @@ AudioPlayer_autogen/moc_predefs.h:
 /usr/lib/cmake/Qt6/QtPublicSbomCommonGenerationHelpers.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QVirtualKeyboardPluginTargets.cmake:
+
+/usr/include/qt6/QtCore/qcoreevent.h:
+
+/usr/include/qt6/QtCore/qnamespace.h:
 
 /usr/include/c++/15.2.1/bits/stl_multiset.h:
 
@@ -2755,15 +2816,7 @@ AudioPlayer_autogen/moc_predefs.h:
 
 /usr/include/bits/typesizes.h:
 
-/usr/include/c++/15.2.1/bits/string_view.tcc:
-
-/usr/include/bits/types/__fpos_t.h:
-
-/usr/include/qt6/QtGui/qvector2d.h:
-
 /usr/lib/cmake/Qt6Gui/Qt6QXcbGlxIntegrationPluginTargets-relwithdebinfo.cmake:
-
-/usr/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake:
 
 /usr/include/c++/15.2.1/tr1/ell_integral.tcc:
 
@@ -2778,10 +2831,6 @@ AudioPlayer_autogen/moc_predefs.h:
 /usr/include/qt6/QtGui/qrgbafloat.h:
 
 /usr/include/c++/15.2.1/bits/unordered_set.h:
-
-/usr/include/qt6/QtCore/qtemporarydir.h:
-
-/usr/include/qt6/QtCore/qtranslator.h:
 
 /usr/include/c++/15.2.1/pstl/glue_numeric_defs.h:
 
@@ -2814,6 +2863,12 @@ AudioPlayer_autogen/moc_predefs.h:
 /usr/include/c++/15.2.1/bits/stl_bvector.h:
 
 /usr/lib/cmake/Qt6CoreTools/Qt6CoreToolsDependencies.cmake:
+
+/usr/include/qt6/QtGui/qclipboard.h:
+
+/usr/include/c++/15.2.1/random:
+
+/usr/include/linux/posix_types.h:
 
 /usr/include/c++/15.2.1/bits/utility.h:
 
@@ -2933,18 +2988,6 @@ AudioPlayer_autogen/moc_predefs.h:
 
 /usr/include/c++/15.2.1/optional:
 
-/usr/include/qt6/QtCore/qcborstream.h:
-
-/usr/include/qt6/QtCore/qstringconverter_base.h:
-
-/usr/include/qt6/QtCore/qbuffer.h:
-
-/usr/include/qt6/QtCore/qbitarray.h:
-
-/usr/include/qt6/QtMultimedia/qtmultimedia-config.h:
-
-/usr/include/qt6/QtGui/qmovie.h:
-
 /usr/include/c++/15.2.1/typeinfo:
 
 /usr/include/asm-generic/errno-base.h:
@@ -2965,8 +3008,6 @@ AudioPlayer_autogen/moc_predefs.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsGbmIntegrationPluginAdditionalTargetInfo.cmake:
 
-/usr/include/c++/15.2.1/tr1/legendre_function.tcc:
-
 /usr/share/cmake/Modules/FindOpenGL.cmake:
 
 /usr/include/c++/15.2.1/mutex:
@@ -2980,24 +3021,6 @@ AudioPlayer_autogen/moc_predefs.h:
 /usr/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake:
 
 /usr/include/c++/15.2.1/tr1/exp_integral.tcc:
-
-/usr/include/bits/types/clockid_t.h:
-
-/usr/include/bits/stdint-intn.h:
-
-/usr/lib/cmake/Qt6/QtPublicSbomDepHelpers.cmake:
-
-/usr/include/c++/15.2.1/bits/specfun.h:
-
-/usr/lib/cmake/Qt6Gui/Qt6GuiConfigVersionImpl.cmake:
-
-/usr/include/qt6/QtGui/qclipboard.h:
-
-/usr/include/linux/posix_types.h:
-
-/usr/include/c++/15.2.1/random:
-
-/usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentAdditionalTargetInfo.cmake:
 
 /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h:
 
@@ -3017,9 +3040,11 @@ AudioPlayer_autogen/moc_predefs.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake:
 
-/usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
+/usr/include/qt6/QtCore/qtcoreglobal.h:
 
-/usr/include/qt6/QtCore/qcompare_impl.h:
+/usr/include/qt6/QtCore/qtranslator.h:
+
+/usr/include/qt6/QtCore/qtemporarydir.h:
 
 /usr/include/qt6/QtCore/qtemporaryfile.h:
 
@@ -3082,6 +3107,8 @@ AudioPlayer_autogen/moc_predefs.h:
 /usr/include/qt6/QtCore/qxpfunctional.h:
 
 /usr/include/qt6/QtCore/qxptype_traits.h:
+
+/usr/include/c++/15.2.1/bits/stl_queue.h:
 
 /usr/lib/cmake/Qt6/QtPublicSbomLicenseHelpers.cmake:
 
@@ -3395,10 +3422,6 @@ AudioPlayer_autogen/moc_predefs.h:
 
 /usr/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake:
 
-/usr/include/qt6/QtCore/qoperatingsystemversion.h:
-
-/usr/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake:
-
 /usr/include/bits/byteswap.h:
 
 /usr/include/qt6/QtCore/qconcatenatetablesproxymodel.h:
@@ -3454,10 +3477,6 @@ AudioPlayer_autogen/moc_predefs.h:
 /usr/include/qt6/QtCore/QSharedDataPointer:
 
 /usr/lib/cmake/Qt6Gui/Qt6QTsLibPluginConfig.cmake:
-
-/usr/include/qt6/QtCore/qexception.h:
-
-/usr/include/qt6/QtNetwork/qdnslookup.h:
 
 /usr/include/qt6/QtNetwork/qdtls.h:
 
@@ -3604,8 +3623,6 @@ AudioPlayer_autogen/moc_predefs.h:
 /usr/lib/cmake/Qt6/Qt6Targets.cmake:
 
 /usr/lib/cmake/Qt6/QtPublicCMakeEarlyPolicyHelpers.cmake:
-
-/usr/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake:
 
 /usr/include/c++/15.2.1/ext/alloc_traits.h:
 
@@ -3912,5 +3929,3 @@ AudioPlayer_autogen/moc_predefs.h:
 /usr/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersion.cmake:
 
 /usr/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake:
-
-/usr/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake:

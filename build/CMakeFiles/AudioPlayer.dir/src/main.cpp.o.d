@@ -1008,4 +1008,8 @@ CMakeFiles/AudioPlayer.dir/src/main.cpp.o: \
  /usr/include/qt6/QtMultimedia/qvideosink.h \
  /usr/include/qt6/QtMultimedia/qwavedecoder.h \
  /usr/include/qt6/QtMultimedia/qwindowcapture.h \
- /usr/include/qt6/QtMultimedia/qcapturablewindow.h
+ /usr/include/qt6/QtMultimedia/qcapturablewindow.h \
+ /usr/include/c++/15.2.1/queue /usr/include/c++/15.2.1/deque \
+ /usr/include/c++/15.2.1/bits/stl_deque.h \
+ /usr/include/c++/15.2.1/bits/deque.tcc \
+ /usr/include/c++/15.2.1/bits/stl_queue.h

@@ -1,7 +1,8 @@
 #include <QtWidgets>
 #include "gamewindow.h"
-#include <iostream>
 #include <fstream>
+#include <iostream>
+#include <cstdlib>
 
 //Constructor
 GameWindow::GameWindow(QWidget* parent) : QWidget(parent) {
@@ -54,21 +55,20 @@ void GameWindow::turnOnMusic() {
     audioOutput = new QAudioOutput;
     player->setAudioOutput(audioOutput);
     audioOutput->setMuted(false);
-
-    filepath = QString("/home/grog/Code-Stuff/AudioPlayer/songs/BK/TootysTheme.mp3");
-    player->setSource(QUrl::fromLocalFile(filepath));
-    audioOutput->setVolume(1.0);
-    player->play();
+    
     readSongs();
+    filepath = QString::fromStdString(getNextSong());
+    player->setSource(QUrl::fromLocalFile(filepath));
+    player->play();
 }
 
 void GameWindow::nextTrack() {
     //Audio stuff
     player->stop();
-    filepath = QString("/home/grog/Code-Stuff/AudioPlayer/songs/BK/Beta1Advent.mp3");
+    filepath = QString::fromStdString(getNextSong());
     player->setSource(QUrl::fromLocalFile(filepath));
-    audioOutput->setVolume(1.0);
     player->play();
+    getGame();
 }
 
 void GameWindow::readSongs() {
@@ -78,7 +78,50 @@ void GameWindow::readSongs() {
     std::string line;
 
     while (getline(songFile, line)) {
-        std::cout << line << std::endl;
+        if (line != "") {
+            std::string currentSong = projectPath.toStdString() + "/songs/" + line + ".mp3";
+            songList.push_back(currentSong);
+        }
     }
     songFile.close();
+
+    shuffleQueue();
+}
+void GameWindow::shuffleQueue() {
+    //Setup indexes vector
+    std::vector<int> indexes;
+    for (int i = 0; i < songList.size(); i++) {
+        indexes.push_back(i);
+    }
+    
+    for (int i = 0; i < songList.size(); i++) {
+        int currentRandomIndex = indexes[getRandomNumber(indexes.size())];
+        indexes.erase(indexes.begin() + currentRandomIndex);
+        songQueue.push(songList[currentRandomIndex]);
+    }
+}
+
+//Generates a random number from [0, max)
+int GameWindow::getRandomNumber(int max) {
+    int random_num = std::rand();
+    return random_num % max;
+}
+
+std::string GameWindow::getNextSong() {
+    if (songQueue.size() == 0) {
+        shuffleQueue();
+    }
+    std::string nextSong = songQueue.front();
+    songQueue.pop();
+    return nextSong;
+}
+
+//Changes filepath to game picture path
+void GameWindow::getGame() {
+    qsizetype whereToTruncate = filepath.lastIndexOf("/");
+    filepath.truncate(whereToTruncate);
+    qsizetype gameNameBeginning = filepath.lastIndexOf("/") + 1;
+    QString gameName = filepath.slice(gameNameBeginning);
+    filepath = filepath + "/" + gameName + ".png";
+    std::cout << filepath.toStdString() << std::endl;
 }

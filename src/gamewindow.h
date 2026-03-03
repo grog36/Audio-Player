@@ -5,6 +5,7 @@
 #include <QtMultimedia>
 #include <string>
 #include <vector>
+#include <queue>
 
 class QPushButton;
 class QLabel;
@@ -21,6 +22,7 @@ class GameWindow : public QWidget {
         QString projectPath = QDir::currentPath().remove("/build");
         //Backend Song List
         std::vector<std::string> songList;
+        std::queue<std::string> songQueue;
         //Media Control Buttons
         QPushButton* playPauseButton;
         QPushButton* nextButton;
@@ -35,6 +37,10 @@ class GameWindow : public QWidget {
 
         //Helper Methods
         void readSongs();
+        void shuffleQueue();
+        int getRandomNumber(int max);
+        std::string getNextSong();
+        void getGame();
 
     private slots:
         void turnOnMusic();
