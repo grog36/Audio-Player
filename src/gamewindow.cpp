@@ -16,7 +16,12 @@ GameWindow::GameWindow(QWidget* parent) : QWidget(parent) {
 
     //Game Picture
     gamePicture = new QLabel();
-    gamePicture->setPixmap(QPixmap("/home/grog/Code-Stuff/AudioPlayer/songs/BK/BK.jpg"));
+    gamePicture->setPixmap(QPixmap("/home/grog/Code-Stuff/AudioPlayer/songs/Banjo-Kazooie/Banjo-Kazooie.jpg"));
+
+    //Track Title
+    trackTitle = new QLabel();
+    trackTitle->setText("No Track Playing Currently");
+    trackTitle->setStyleSheet("color: black; font-size: 32px;");
 
     //Audio stuff
     player = new QMediaPlayer();
@@ -25,12 +30,14 @@ GameWindow::GameWindow(QWidget* parent) : QWidget(parent) {
 
     //Layout Stuff
     QGridLayout* mainLayout = new QGridLayout();
-    mainLayout->addWidget(gamePicture, 0, 0);
-    mainLayout->addWidget(playPauseButton, 1, 0);
-    mainLayout->addWidget(nextButton, 1, 1);
+    mainLayout->addWidget(trackTitle, 0, 0);
+    mainLayout->addWidget(gamePicture, 1, 0);
+    mainLayout->addWidget(playPauseButton, 2, 0);
+    mainLayout->addWidget(nextButton, 2, 1);
     //Set column & row sizes
-    mainLayout->setRowStretch(0, 2);
-    mainLayout->setRowStretch(1, 1);
+    mainLayout->setRowStretch(0, 1);
+    mainLayout->setRowStretch(1, 2);
+    mainLayout->setRowStretch(2, 1);
     mainLayout->setColumnStretch(0, 1);
     mainLayout->setColumnStretch(1, 1);
     //finally
@@ -51,6 +58,7 @@ GameWindow::~GameWindow() {
     delete gamePicture;
     delete playPauseButton;
     delete nextButton;
+    delete trackTitle;
 }
 
 void GameWindow::turnOnMusic() {
@@ -109,16 +117,18 @@ int GameWindow::getRandomNumber(int min, int max) {
     return distribution(generator);
 }
 
+//Returns the next song and updates the screen accordingly
 std::string GameWindow::getNextSong() {
     if (songQueue.size() == 0) {
         shuffleQueue();
     }
     std::string nextSong = songQueue.front();
     songQueue.pop();
+    trackTitle->setText(QString::fromStdString(nextSong));
     return nextSong;
 }
 
-//Changes filepath to game picture path
+//Updates the game picture
 void GameWindow::getGame() {
     //Edits the filepath to simplify process
     qsizetype whereToTruncate = filepath.lastIndexOf("/");

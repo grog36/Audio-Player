@@ -20,9 +20,11 @@ class GameWindow : public QWidget {
     private:
         //Current Working Directory
         QString projectPath = QDir::currentPath().remove("/build");
+
         //Backend Song List
         std::vector<std::string> songList;
         std::queue<std::string> songQueue;
+
         //Media Control Buttons
         QPushButton* playPauseButton;
         QPushButton* nextButton;
@@ -34,6 +36,9 @@ class GameWindow : public QWidget {
 
         //Displayed Game Picture
         QLabel* gamePicture;
+
+        //Track Title
+        QLabel* trackTitle;
 
         //Helper Methods
         void readSongs();
