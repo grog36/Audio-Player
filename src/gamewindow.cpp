@@ -15,9 +15,13 @@ GameWindow::GameWindow(QWidget* parent) : QWidget(parent) {
     nextButton->setStyleSheet("background-color: pink; color: black; font-size: 24px;");
 
     //Game Picture
-    QPixmap* pixmap = new QPixmap("/home/grog/Code-Stuff/AudioPlayer/songs/BK/BK.jpg");
     gamePicture = new QLabel();
-    gamePicture->setPixmap(*pixmap);
+    gamePicture->setPixmap(QPixmap("/home/grog/Code-Stuff/AudioPlayer/songs/BK/BK.jpg"));
+
+    //Audio stuff
+    player = new QMediaPlayer();
+    audioOutput = new QAudioOutput;
+    player->setAudioOutput(audioOutput);
 
     //Layout Stuff
     QGridLayout* mainLayout = new QGridLayout();
@@ -50,20 +54,19 @@ GameWindow::~GameWindow() {
 }
 
 void GameWindow::turnOnMusic() {
-    //Audio stuff
-    player = new QMediaPlayer();
-    audioOutput = new QAudioOutput;
-    player->setAudioOutput(audioOutput);
-    audioOutput->setMuted(false);
-    
+    //Setup queue
     readSongs();
+    shuffleQueue();
+
+    //Starting playing music
+    audioOutput->setMuted(false);
     filepath = QString::fromStdString(getNextSong());
     player->setSource(QUrl::fromLocalFile(filepath));
     player->play();
 }
 
 void GameWindow::nextTrack() {
-    //Audio stuff
+    //Stops the current player, loads in new song, and starts it up again
     player->stop();
     filepath = QString::fromStdString(getNextSong());
     player->setSource(QUrl::fromLocalFile(filepath));
@@ -73,7 +76,6 @@ void GameWindow::nextTrack() {
 
 void GameWindow::readSongs() {
     std::string songFilePath = projectPath.toStdString() + "/songs/songs.txt";
-    setWindowTitle(QString::fromStdString(songFilePath));
     std::ifstream songFile(songFilePath);
     std::string line;
 
@@ -84,8 +86,6 @@ void GameWindow::readSongs() {
         }
     }
     songFile.close();
-
-    shuffleQueue();
 }
 void GameWindow::shuffleQueue() {
     //Setup indexes vector
@@ -120,8 +120,24 @@ std::string GameWindow::getNextSong() {
 
 //Changes filepath to game picture path
 void GameWindow::getGame() {
+    //Edits the filepath to simplify process
     qsizetype whereToTruncate = filepath.lastIndexOf("/");
     filepath.truncate(whereToTruncate);
-    qsizetype gameNameBeginning = filepath.lastIndexOf("/") + 1;
-    QString gameName = filepath.slice(gameNameBeginning);
+    qsizetype startOfDir = filepath.lastIndexOf("/");
+
+    //Gets the game name from the current directory
+    std::string gameName;
+    for (int i = startOfDir + 1; i < filepath.size(); i++) {
+        gameName.push_back(filepath.at(i).toLatin1());
+    }
+
+    //Grabs the path of the picture
+    QString picturePath;
+    picturePath.append(filepath);
+    picturePath.append("/");
+    picturePath.append(gameName);
+    picturePath.append(".jpg");
+
+    //Updates the on-screen picture accordingly
+    gamePicture->setPixmap(QPixmap(picturePath));
 }
