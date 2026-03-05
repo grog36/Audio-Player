@@ -3,6 +3,7 @@
 #include <fstream>
 #include <random>
 #include <chrono>
+#include <iostream>
 
 //Constructor
 GameWindow::GameWindow(QWidget* parent) : QWidget(parent) {
@@ -16,7 +17,6 @@ GameWindow::GameWindow(QWidget* parent) : QWidget(parent) {
 
     //Game Picture
     gamePicture = new QLabel();
-    gamePicture->setPixmap(QPixmap("/home/grog/Code-Stuff/AudioPlayer/songs/Banjo-Kazooie/Banjo-Kazooie.jpg"));
     gamePicture->setStyleSheet("border: 2px solid red;");
 
     //Track Title
@@ -62,6 +62,9 @@ GameWindow::~GameWindow() {
     delete trackTitle;
 }
 
+/**
+ * @brief Turns the music on and displays accordingly
+ */
 void GameWindow::turnOnMusic() {
     //Setup queue
     readSongs();
@@ -71,11 +74,14 @@ void GameWindow::turnOnMusic() {
     audioOutput->setMuted(false);
     filepath = QString::fromStdString(getNextSong());
     player->setSource(QUrl::fromLocalFile(filepath));
+    getGame();
     player->play();
 }
 
+/**
+ * @brief Stops the previous track, starts the next track
+ */
 void GameWindow::nextTrack() {
-    //Stops the current player, loads in new song, and starts it up again
     player->stop();
     filepath = QString::fromStdString(getNextSong());
     player->setSource(QUrl::fromLocalFile(filepath));
@@ -83,6 +89,9 @@ void GameWindow::nextTrack() {
     getGame();
 }
 
+/**
+ * @brief Reads songs in from "/songs/songs.txt"
+ */
 void GameWindow::readSongs() {
     std::string songFilePath = projectPath.toStdString() + "/songs/songs.txt";
     std::ifstream songFile(songFilePath);
@@ -96,6 +105,10 @@ void GameWindow::readSongs() {
     }
     songFile.close();
 }
+
+/**
+ * @brief Shuffles the list of songs and adds them to a queue
+ */
 void GameWindow::shuffleQueue() {
     //Setup indexes vector
     std::vector<int> indexes;
@@ -110,7 +123,13 @@ void GameWindow::shuffleQueue() {
     }
 }
 
-//Generates a random number from [min, max],
+/**
+ * @brief Generates a random int from min to max inclusive
+ *
+ * @param min - The minimum value
+ * @param max - The maximum value
+ * @return A random number from min to max, inclusive
+ */
 int GameWindow::getRandomNumber(int min, int max) {
     unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
     std::mt19937 generator(seed);
@@ -118,29 +137,39 @@ int GameWindow::getRandomNumber(int min, int max) {
     return distribution(generator);
 }
 
-//Returns the next song and updates the screen accordingly
+/**
+ * @brief Gets the next song and updates trackTitle & gameName
+ *
+ * @return Returns the path of the next song
+ */
 std::string GameWindow::getNextSong() {
+    //Updates the song queue and pops song
     if (songQueue.size() == 0) {
         shuffleQueue();
     }
-    std::string nextSong = songQueue.front();
+    std::string nextSongPath = songQueue.front();
     songQueue.pop();
-    trackTitle->setText(filepath);
-    return nextSong;
+
+    //Does some substring magic to find and update gameName and songName
+    int lastSlashIndex = nextSongPath.find_last_of('/');
+    std::string songName = nextSongPath.substr(lastSlashIndex + 1);
+    int slashIndexBeforeGame = nextSongPath.find_last_of('/', lastSlashIndex - 1);
+    gameName = nextSongPath.substr(slashIndexBeforeGame + 1, (lastSlashIndex - slashIndexBeforeGame - 1));
+
+    //Updates screen accordingly
+    trackTitle->setText(QString::fromStdString(gameName) + " : " + QString::fromStdString(songName));
+
+    return nextSongPath;
 }
 
-//Updates the game picture
+/**
+ * @brief Updates the game picture based off of the current game
+ */
 void GameWindow::getGame() {
     //Edits the filepath to simplify process
     qsizetype whereToTruncate = filepath.lastIndexOf("/");
     filepath.truncate(whereToTruncate);
     qsizetype startOfDir = filepath.lastIndexOf("/");
-
-    //Gets the game name from the current directory
-    std::string gameName;
-    for (int i = startOfDir + 1; i < filepath.size(); i++) {
-        gameName.push_back(filepath.at(i).toLatin1());
-    }
 
     //Grabs the path of the picture
     QString picturePath;

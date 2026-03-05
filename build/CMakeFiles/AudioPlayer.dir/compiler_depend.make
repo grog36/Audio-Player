@@ -1377,6 +1377,7 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: /home/grog/Code-Stuff/AudioPlay
   /usr/include/c++/15.2.1/iomanip \
   /usr/include/c++/15.2.1/ios \
   /usr/include/c++/15.2.1/iosfwd \
+  /usr/include/c++/15.2.1/iostream \
   /usr/include/c++/15.2.1/istream \
   /usr/include/c++/15.2.1/iterator \
   /usr/include/c++/15.2.1/limits \
@@ -5236,6 +5237,8 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o:
 /usr/include/qt6/QtCore/qyieldcpu.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/amxcomplexintrin.h:
+
+/usr/include/c++/15.2.1/iostream:
 
 /usr/include/qt6/QtGui/QtGui:
 
