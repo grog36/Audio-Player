@@ -9,19 +9,20 @@ GameWindow::GameWindow(QWidget* parent) : QWidget(parent) {
     //Buttons
     playPauseButton = new QPushButton();
     playPauseButton->setText("Play/Pause");
-    playPauseButton->setStyleSheet("background-color: green; color: white; font-size: 24px;");
+    playPauseButton->setStyleSheet("background-color: green; color: white; font-size: 24px; border: 2px solid red;");
     nextButton = new QPushButton();
     nextButton->setText("Next Track");
-    nextButton->setStyleSheet("background-color: pink; color: black; font-size: 24px;");
+    nextButton->setStyleSheet("background-color: pink; color: black; font-size: 24px; border: 2px solid red;");
 
     //Game Picture
     gamePicture = new QLabel();
     gamePicture->setPixmap(QPixmap("/home/grog/Code-Stuff/AudioPlayer/songs/Banjo-Kazooie/Banjo-Kazooie.jpg"));
+    gamePicture->setStyleSheet("border: 2px solid red;");
 
     //Track Title
     trackTitle = new QLabel();
     trackTitle->setText("No Track Playing Currently");
-    trackTitle->setStyleSheet("color: black; font-size: 32px;");
+    trackTitle->setStyleSheet("color: black; font-size: 32px; border: 2px solid red;");
 
     //Audio stuff
     player = new QMediaPlayer();
@@ -124,7 +125,7 @@ std::string GameWindow::getNextSong() {
     }
     std::string nextSong = songQueue.front();
     songQueue.pop();
-    trackTitle->setText(QString::fromStdString(nextSong));
+    trackTitle->setText(filepath);
     return nextSong;
 }
 
