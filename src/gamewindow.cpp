@@ -1,9 +1,8 @@
-#include <QtWidgets>
-#include "gamewindow.h"
-#include <fstream>
-#include <random>
-#include <chrono>
-#include <iostream>
+#include "gamewindow.h" //Header file
+#include <QtWidgets> //Necessary widgets
+#include <fstream> //File reading
+#include <random> //For random number generation
+#include <chrono> //For random number generation
 
 //Constructor
 GameWindow::GameWindow(QWidget* parent) : QWidget(parent) {
@@ -50,6 +49,7 @@ GameWindow::GameWindow(QWidget* parent) : QWidget(parent) {
     //Signals and Slots
     connect(playPauseButton, SIGNAL(pressed()), this, SLOT(turnOnMusic()));
     connect(nextButton, SIGNAL(pressed()), this, SLOT(nextTrack()));
+    connect(player, SIGNAL(mediaStatusChanged(QMediaPlayer::MediaStatus)), this, SLOT(checkForTrackEnding(QMediaPlayer::MediaStatus)));
 }
 
 //Destructor
@@ -63,7 +63,7 @@ GameWindow::~GameWindow() {
 }
 
 /**
- * @brief Turns the music on and displays accordingly
+ * @brief SLOT that performs setup and turns on music
  */
 void GameWindow::turnOnMusic() {
     //Setup queue
@@ -79,7 +79,7 @@ void GameWindow::turnOnMusic() {
 }
 
 /**
- * @brief Stops the previous track, starts the next track
+ * @brief SLOT that stops the previous track and starts the next
  */
 void GameWindow::nextTrack() {
     player->stop();
@@ -87,6 +87,15 @@ void GameWindow::nextTrack() {
     player->setSource(QUrl::fromLocalFile(filepath));
     player->play();
     getGame();
+}
+
+/**
+ * @brief SLOT that calls nextTrack() when current track ends
+ */
+void GameWindow::checkForTrackEnding(QMediaPlayer::MediaStatus status) {
+    if (status == QMediaPlayer::EndOfMedia) {
+        nextTrack();
+    }
 }
 
 /**

@@ -1,9 +1,11 @@
 CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /home/grog/Code-Stuff/AudioPlayer/src/gamewindow.cpp \
- /usr/include/stdc-predef.h /usr/include/qt6/QtWidgets/QtWidgets \
- /usr/include/qt6/QtWidgets/QtWidgetsDepends \
- /usr/include/qt6/QtCore/QtCore /usr/include/qt6/QtCore/QtCoreDepends \
- /usr/include/qt6/QtCore/qglobal.h /usr/include/c++/15.2.1/type_traits \
+ /usr/include/stdc-predef.h \
+ /home/grog/Code-Stuff/AudioPlayer/src/gamewindow.h \
+ /usr/include/qt6/QtWidgets/QWidget /usr/include/qt6/QtWidgets/qwidget.h \
+ /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
+ /usr/include/qt6/QtGui/qtguiglobal.h /usr/include/qt6/QtCore/qglobal.h \
+ /usr/include/c++/15.2.1/type_traits \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -144,24 +146,57 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /usr/include/qt6/QtCore/qtresource.h \
  /usr/include/qt6/QtCore/qttranslation.h \
  /usr/include/qt6/QtCore/qversiontagging.h \
- /usr/include/qt6/QtCore/qtcoreglobal.h \
- /usr/include/qt6/QtCore/q17memory.h /usr/include/c++/15.2.1/iterator \
- /usr/include/c++/15.2.1/bits/stream_iterator.h \
- /usr/include/c++/15.2.1/iosfwd /usr/include/c++/15.2.1/bits/stringfwd.h \
+ /usr/include/qt6/QtGui/qtgui-config.h \
+ /usr/include/qt6/QtGui/qtguiexports.h \
+ /usr/include/qt6/QtWidgets/qtwidgets-config.h \
+ /usr/include/qt6/QtWidgets/qtwidgetsexports.h \
+ /usr/include/qt6/QtGui/qwindowdefs.h \
+ /usr/include/qt6/QtCore/qobjectdefs.h \
+ /usr/include/qt6/QtCore/qnamespace.h /usr/include/qt6/QtCore/qcompare.h \
+ /usr/include/qt6/QtCore/qstdlibdetection.h \
+ /usr/include/qt6/QtCore/qcomparehelpers.h \
+ /usr/include/c++/15.2.1/functional \
+ /usr/include/c++/15.2.1/bits/stl_function.h \
+ /usr/include/c++/15.2.1/backward/binders.h \
+ /usr/include/c++/15.2.1/bits/refwrap.h \
+ /usr/include/c++/15.2.1/bits/std_function.h \
+ /usr/include/c++/15.2.1/unordered_map \
+ /usr/include/c++/15.2.1/bits/unordered_map.h \
+ /usr/include/c++/15.2.1/bits/hashtable.h \
+ /usr/include/c++/15.2.1/bits/hashtable_policy.h \
+ /usr/include/c++/15.2.1/ext/alloc_traits.h \
+ /usr/include/c++/15.2.1/bits/alloc_traits.h \
  /usr/include/c++/15.2.1/bits/memoryfwd.h \
+ /usr/include/c++/15.2.1/bits/allocator.h \
+ /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
+ /usr/include/c++/15.2.1/bits/new_allocator.h \
+ /usr/include/c++/15.2.1/bits/node_handle.h \
+ /usr/include/c++/15.2.1/bits/range_access.h \
+ /usr/include/c++/15.2.1/bits/erase_if.h \
+ /usr/include/c++/15.2.1/bits/memory_resource.h \
+ /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
+ /usr/include/c++/15.2.1/vector \
+ /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
+ /usr/include/c++/15.2.1/bits/stl_vector.h \
+ /usr/include/c++/15.2.1/bits/stl_bvector.h \
+ /usr/include/c++/15.2.1/bits/vector.tcc /usr/include/c++/15.2.1/array \
+ /usr/include/c++/15.2.1/compare /usr/include/qt6/QtCore/qtmetamacros.h \
+ /usr/include/qt6/QtCore/qobjectdefs_impl.h \
+ /usr/include/qt6/QtCore/qfunctionaltools_impl.h \
+ /usr/include/c++/15.2.1/memory \
+ /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \
+ /usr/include/c++/15.2.1/bits/align.h \
+ /usr/include/c++/15.2.1/bits/unique_ptr.h \
+ /usr/include/c++/15.2.1/bits/shared_ptr.h /usr/include/c++/15.2.1/iosfwd \
+ /usr/include/c++/15.2.1/bits/stringfwd.h \
  /usr/include/c++/15.2.1/bits/postypes.h /usr/include/c++/15.2.1/cwchar \
  /usr/include/wchar.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
  /usr/include/bits/types/wint_t.h /usr/include/bits/types/mbstate_t.h \
  /usr/include/bits/types/__mbstate_t.h /usr/include/bits/types/__FILE.h \
  /usr/include/bits/types/FILE.h \
- /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
- /usr/include/c++/15.2.1/streambuf \
- /usr/include/c++/15.2.1/bits/localefwd.h \
- /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
- /usr/include/c++/15.2.1/clocale /usr/include/locale.h \
- /usr/include/bits/locale.h /usr/include/c++/15.2.1/cctype \
- /usr/include/ctype.h /usr/include/c++/15.2.1/bits/ios_base.h \
+ /usr/include/c++/15.2.1/bits/shared_ptr_base.h \
+ /usr/include/c++/15.2.1/bits/allocated_ptr.h \
  /usr/include/c++/15.2.1/ext/atomicity.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h \
@@ -180,21 +215,34 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /usr/include/bits/pthread_stack_min-dynamic.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
  /usr/include/sys/single_threaded.h \
+ /usr/include/c++/15.2.1/ext/concurrence.h \
+ /usr/include/c++/15.2.1/bits/shared_ptr_atomic.h \
+ /usr/include/c++/15.2.1/backward/auto_ptr.h \
+ /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
+ /usr/include/qt6/QtCore/qobject.h /usr/include/qt6/QtCore/qstring.h \
+ /usr/include/qt6/QtCore/qchar.h /usr/include/qt6/QtCore/qstringview.h \
+ /usr/include/qt6/QtCore/qbytearray.h /usr/include/qt6/QtCore/qrefcount.h \
+ /usr/include/qt6/QtCore/qarraydata.h /usr/include/qt6/QtCore/qpair.h \
+ /usr/include/string.h /usr/include/strings.h \
+ /usr/include/qt6/QtCore/qarraydatapointer.h \
+ /usr/include/qt6/QtCore/qarraydataops.h \
+ /usr/include/qt6/QtCore/qcontainertools_impl.h \
+ /usr/include/qt6/QtCore/qxptype_traits.h /usr/include/c++/15.2.1/cstring \
+ /usr/include/c++/15.2.1/iterator \
+ /usr/include/c++/15.2.1/bits/stream_iterator.h \
+ /usr/include/c++/15.2.1/bits/streambuf_iterator.h \
+ /usr/include/c++/15.2.1/streambuf \
+ /usr/include/c++/15.2.1/bits/localefwd.h \
+ /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
+ /usr/include/c++/15.2.1/clocale /usr/include/locale.h \
+ /usr/include/bits/locale.h /usr/include/c++/15.2.1/cctype \
+ /usr/include/ctype.h /usr/include/c++/15.2.1/bits/ios_base.h \
  /usr/include/c++/15.2.1/bits/locale_classes.h \
  /usr/include/c++/15.2.1/string \
  /usr/include/c++/15.2.1/bits/char_traits.h \
- /usr/include/c++/15.2.1/bits/allocator.h \
- /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
- /usr/include/c++/15.2.1/bits/new_allocator.h \
  /usr/include/c++/15.2.1/bits/ostream_insert.h \
  /usr/include/c++/15.2.1/bits/cxxabi_forced.h \
- /usr/include/c++/15.2.1/bits/stl_function.h \
- /usr/include/c++/15.2.1/backward/binders.h \
- /usr/include/c++/15.2.1/bits/refwrap.h \
- /usr/include/c++/15.2.1/bits/range_access.h \
  /usr/include/c++/15.2.1/bits/basic_string.h \
- /usr/include/c++/15.2.1/ext/alloc_traits.h \
- /usr/include/c++/15.2.1/bits/alloc_traits.h \
  /usr/include/c++/15.2.1/string_view \
  /usr/include/c++/15.2.1/bits/string_view.tcc \
  /usr/include/c++/15.2.1/ext/string_conversions.h \
@@ -209,75 +257,13 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /usr/include/bits/types/error_t.h \
  /usr/include/c++/15.2.1/bits/charconv.h \
  /usr/include/c++/15.2.1/bits/basic_string.tcc \
- /usr/include/c++/15.2.1/bits/memory_resource.h \
- /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
  /usr/include/c++/15.2.1/bits/locale_classes.tcc \
  /usr/include/c++/15.2.1/system_error \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/error_constants.h \
  /usr/include/c++/15.2.1/stdexcept \
  /usr/include/c++/15.2.1/bits/streambuf.tcc \
- /usr/include/c++/15.2.1/memory \
- /usr/include/c++/15.2.1/bits/stl_uninitialized.h \
- /usr/include/c++/15.2.1/bits/stl_raw_storage_iter.h \
- /usr/include/c++/15.2.1/bits/align.h \
- /usr/include/c++/15.2.1/bits/unique_ptr.h \
- /usr/include/c++/15.2.1/bits/shared_ptr.h \
- /usr/include/c++/15.2.1/bits/shared_ptr_base.h \
- /usr/include/c++/15.2.1/bits/allocated_ptr.h \
- /usr/include/c++/15.2.1/ext/concurrence.h \
- /usr/include/c++/15.2.1/bits/shared_ptr_atomic.h \
- /usr/include/c++/15.2.1/backward/auto_ptr.h \
- /usr/include/c++/15.2.1/pstl/glue_memory_defs.h \
- /usr/include/qt6/QtCore/q20algorithm.h /usr/include/qt6/QtCore/qglobal.h \
  /usr/include/qt6/QtCore/q20functional.h \
- /usr/include/c++/15.2.1/functional \
- /usr/include/c++/15.2.1/bits/std_function.h \
- /usr/include/c++/15.2.1/unordered_map \
- /usr/include/c++/15.2.1/bits/unordered_map.h \
- /usr/include/c++/15.2.1/bits/hashtable.h \
- /usr/include/c++/15.2.1/bits/hashtable_policy.h \
- /usr/include/c++/15.2.1/bits/node_handle.h \
- /usr/include/c++/15.2.1/bits/erase_if.h /usr/include/c++/15.2.1/vector \
- /usr/include/c++/15.2.1/bits/stl_vector.h \
- /usr/include/c++/15.2.1/bits/stl_bvector.h \
- /usr/include/c++/15.2.1/bits/vector.tcc /usr/include/c++/15.2.1/array \
- /usr/include/c++/15.2.1/compare /usr/include/qt6/QtCore/q20chrono.h \
- /usr/include/c++/15.2.1/chrono /usr/include/c++/15.2.1/bits/chrono.h \
- /usr/include/c++/15.2.1/ratio /usr/include/c++/15.2.1/ctime \
- /usr/include/qt6/QtCore/q20functional.h \
- /usr/include/qt6/QtCore/q20iterator.h /usr/include/qt6/QtCore/q20map.h \
- /usr/include/c++/15.2.1/map /usr/include/c++/15.2.1/bits/stl_tree.h \
- /usr/include/c++/15.2.1/bits/stl_map.h \
- /usr/include/c++/15.2.1/bits/stl_multimap.h \
- /usr/include/c++/15.2.1/memory_resource \
- /usr/include/c++/15.2.1/shared_mutex \
- /usr/include/c++/15.2.1/bits/std_mutex.h \
  /usr/include/qt6/QtCore/q20memory.h /usr/include/qt6/QtCore/q17memory.h \
- /usr/include/qt6/QtCore/q20utility.h /usr/include/qt6/QtCore/q20vector.h \
- /usr/include/qt6/QtCore/q23functional.h \
- /usr/include/qt6/QtCore/q23utility.h \
- /usr/include/qt6/QtCore/q20utility.h \
- /usr/include/qt6/QtCore/q26numeric.h /usr/include/c++/15.2.1/numeric \
- /usr/include/c++/15.2.1/bits/stl_numeric.h \
- /usr/include/c++/15.2.1/pstl/glue_numeric_defs.h \
- /usr/include/qt6/QtCore/qabstractanimation.h \
- /usr/include/qt6/QtCore/qobject.h /usr/include/qt6/QtCore/qobjectdefs.h \
- /usr/include/qt6/QtCore/qnamespace.h /usr/include/qt6/QtCore/qcompare.h \
- /usr/include/qt6/QtCore/qstdlibdetection.h \
- /usr/include/qt6/QtCore/qcomparehelpers.h \
- /usr/include/qt6/QtCore/qtmetamacros.h \
- /usr/include/qt6/QtCore/qobjectdefs_impl.h \
- /usr/include/qt6/QtCore/qfunctionaltools_impl.h \
- /usr/include/qt6/QtCore/qstring.h /usr/include/qt6/QtCore/qchar.h \
- /usr/include/qt6/QtCore/qstringview.h \
- /usr/include/qt6/QtCore/qbytearray.h /usr/include/qt6/QtCore/qrefcount.h \
- /usr/include/qt6/QtCore/qarraydata.h /usr/include/qt6/QtCore/qpair.h \
- /usr/include/string.h /usr/include/strings.h \
- /usr/include/qt6/QtCore/qarraydatapointer.h \
- /usr/include/qt6/QtCore/qarraydataops.h \
- /usr/include/qt6/QtCore/qcontainertools_impl.h \
- /usr/include/qt6/QtCore/qxptype_traits.h /usr/include/c++/15.2.1/cstring \
- /usr/include/qt6/QtCore/q20memory.h \
  /usr/include/qt6/QtCore/qbytearrayalgorithms.h \
  /usr/include/qt6/QtCore/qbytearrayview.h \
  /usr/include/qt6/QtCore/qstringfwd.h /usr/include/c++/15.2.1/stdlib.h \
@@ -291,6 +277,9 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /usr/include/qt6/QtCore/qstringconverter.h \
  /usr/include/qt6/QtCore/qstringconverter_base.h \
  /usr/include/qt6/QtCore/qlist.h /usr/include/qt6/QtCore/qhashfunctions.h \
+ /usr/include/c++/15.2.1/numeric \
+ /usr/include/c++/15.2.1/bits/stl_numeric.h \
+ /usr/include/c++/15.2.1/pstl/glue_numeric_defs.h \
  /usr/include/qt6/QtCore/qiterator.h \
  /usr/include/qt6/QtCore/qbytearraylist.h \
  /usr/include/qt6/QtCore/qstringlist.h \
@@ -308,24 +297,36 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /usr/include/qt6/QtCore/qcontainerinfo.h \
  /usr/include/qt6/QtCore/qscopeguard.h /usr/include/c++/15.2.1/list \
  /usr/include/c++/15.2.1/bits/stl_list.h \
- /usr/include/c++/15.2.1/bits/list.tcc \
+ /usr/include/c++/15.2.1/bits/list.tcc /usr/include/c++/15.2.1/map \
+ /usr/include/c++/15.2.1/bits/stl_tree.h \
+ /usr/include/c++/15.2.1/bits/stl_map.h \
+ /usr/include/c++/15.2.1/bits/stl_multimap.h \
  /usr/include/qt6/QtCore/qobject_impl.h \
- /usr/include/qt6/QtCore/qbindingstorage.h \
- /usr/include/qt6/QtCore/qabstracteventdispatcher.h \
- /usr/include/qt6/QtCore/qeventloop.h \
- /usr/include/qt6/QtCore/qdeadlinetimer.h \
- /usr/include/qt6/QtCore/qabstractitemmodel.h \
- /usr/include/qt6/QtCore/qhash.h /usr/include/qt6/QtCore/qvariant.h \
- /usr/include/qt6/QtCore/qdebug.h /usr/include/qt6/QtCore/qtextstream.h \
- /usr/include/qt6/QtCore/qcontiguouscache.h \
- /usr/include/c++/15.2.1/climits \
+ /usr/include/qt6/QtCore/qbindingstorage.h /usr/include/c++/15.2.1/chrono \
+ /usr/include/c++/15.2.1/bits/chrono.h /usr/include/c++/15.2.1/ratio \
+ /usr/include/c++/15.2.1/ctime /usr/include/qt6/QtCore/qmargins.h \
+ /usr/include/qt6/QtCore/qcheckedint_impl.h \
+ /usr/include/qt6/QtCore/q23utility.h \
+ /usr/include/qt6/QtCore/q20utility.h /usr/include/qt6/QtGui/qaction.h \
+ /usr/include/qt6/QtGui/qkeysequence.h /usr/include/qt6/QtGui/qicon.h \
+ /usr/include/qt6/QtCore/qsize.h /usr/include/qt6/QtGui/qpixmap.h \
+ /usr/include/qt6/QtGui/qpaintdevice.h /usr/include/qt6/QtCore/qrect.h \
+ /usr/include/qt6/QtCore/qpoint.h /usr/include/qt6/QtGui/qcolor.h \
+ /usr/include/qt6/QtGui/qrgb.h /usr/include/qt6/QtGui/qrgba64.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/limits.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
- /usr/include/bits/uio_lim.h /usr/include/qt6/QtCore/qsharedpointer.h \
- /usr/include/qt6/QtCore/qshareddata.h \
+ /usr/include/bits/uio_lim.h /usr/include/qt6/QtCore/qshareddata.h \
+ /usr/include/qt6/QtGui/qimage.h /usr/include/qt6/QtGui/qpixelformat.h \
+ /usr/include/qt6/QtGui/qtransform.h /usr/include/qt6/QtGui/qpolygon.h \
+ /usr/include/qt6/QtGui/qregion.h /usr/include/qt6/QtCore/qspan.h \
+ /usr/include/c++/15.2.1/cassert /usr/include/qt6/QtCore/q20iterator.h \
+ /usr/include/qt6/QtCore/qline.h /usr/include/qt6/QtCore/qvariant.h \
+ /usr/include/qt6/QtCore/qdebug.h /usr/include/qt6/QtCore/qtextstream.h \
+ /usr/include/qt6/QtCore/qcontiguouscache.h \
+ /usr/include/c++/15.2.1/climits /usr/include/qt6/QtCore/qsharedpointer.h \
  /usr/include/qt6/QtCore/qsharedpointer_impl.h \
  /usr/include/c++/15.2.1/set /usr/include/c++/15.2.1/bits/stl_set.h \
  /usr/include/c++/15.2.1/bits/stl_multiset.h \
@@ -333,8 +334,37 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /usr/include/c++/15.2.1/bits/unordered_set.h \
  /usr/include/qt6/QtCore/qmap.h \
  /usr/include/qt6/QtCore/qshareddata_impl.h \
- /usr/include/qt6/QtCore/qset.h /usr/include/qt6/QtCore/qvarlengtharray.h \
- /usr/include/qt6/QtCore/qalloc.h /usr/include/qt6/QtCore/q23utility.h \
+ /usr/include/qt6/QtCore/qset.h /usr/include/qt6/QtCore/qhash.h \
+ /usr/include/qt6/QtCore/qvarlengtharray.h \
+ /usr/include/qt6/QtCore/qalloc.h /usr/include/qt6/QtGui/qpalette.h \
+ /usr/include/qt6/QtGui/qbrush.h /usr/include/qt6/QtGui/qfont.h \
+ /usr/include/qt6/QtCore/qendian.h /usr/include/qt6/QtGui/qfontmetrics.h \
+ /usr/include/qt6/QtGui/qfontinfo.h \
+ /usr/include/qt6/QtGui/qfontvariableaxis.h \
+ /usr/include/qt6/QtWidgets/qsizepolicy.h \
+ /usr/include/qt6/QtGui/qcursor.h /usr/include/qt6/QtGui/qbitmap.h \
+ /usr/include/qt6/QtMultimedia/QtMultimedia \
+ /usr/include/qt6/QtMultimedia/QtMultimediaDepends \
+ /usr/include/qt6/QtCore/QtCore /usr/include/qt6/QtCore/QtCoreDepends \
+ /usr/include/qt6/QtCore/qglobal.h /usr/include/qt6/QtCore/qtcoreglobal.h \
+ /usr/include/qt6/QtCore/q17memory.h \
+ /usr/include/qt6/QtCore/q20algorithm.h \
+ /usr/include/qt6/QtCore/q20chrono.h \
+ /usr/include/qt6/QtCore/q20functional.h \
+ /usr/include/qt6/QtCore/q20iterator.h /usr/include/qt6/QtCore/q20map.h \
+ /usr/include/c++/15.2.1/memory_resource \
+ /usr/include/c++/15.2.1/shared_mutex \
+ /usr/include/c++/15.2.1/bits/std_mutex.h \
+ /usr/include/qt6/QtCore/q20memory.h /usr/include/qt6/QtCore/q20utility.h \
+ /usr/include/qt6/QtCore/q20vector.h \
+ /usr/include/qt6/QtCore/q23functional.h \
+ /usr/include/qt6/QtCore/q23utility.h \
+ /usr/include/qt6/QtCore/q26numeric.h \
+ /usr/include/qt6/QtCore/qabstractanimation.h \
+ /usr/include/qt6/QtCore/qabstracteventdispatcher.h \
+ /usr/include/qt6/QtCore/qeventloop.h \
+ /usr/include/qt6/QtCore/qdeadlinetimer.h \
+ /usr/include/qt6/QtCore/qabstractitemmodel.h \
  /usr/include/qt6/QtCore/qabstractnativeeventfilter.h \
  /usr/include/qt6/QtCore/qabstractproxymodel.h \
  /usr/include/qt6/QtCore/qabstractitemmodel.h \
@@ -361,9 +391,7 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /usr/include/qt6/QtCore/qbasictimer.h \
  /usr/include/qt6/QtCore/qbindingstorage.h \
  /usr/include/qt6/QtCore/qbitarray.h /usr/include/qt6/QtCore/qbuffer.h \
- /usr/include/qt6/QtCore/qiodevice.h /usr/include/qt6/QtCore/qspan.h \
- /usr/include/c++/15.2.1/cassert /usr/include/qt6/QtCore/q20iterator.h \
- /usr/include/qt6/QtCore/qbytearray.h \
+ /usr/include/qt6/QtCore/qiodevice.h /usr/include/qt6/QtCore/qbytearray.h \
  /usr/include/qt6/QtCore/qbytearrayalgorithms.h \
  /usr/include/qt6/QtCore/qbytearraylist.h \
  /usr/include/qt6/QtCore/qbytearraymatcher.h \
@@ -376,8 +404,8 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /usr/include/qt6/QtCore/qdatetime.h /usr/include/qt6/QtCore/qcalendar.h \
  /usr/include/qt6/QtCore/qregularexpression.h \
  /usr/include/qt6/QtCore/qurl.h /usr/include/qt6/QtCore/quuid.h \
- /usr/include/qt6/QtCore/qendian.h /usr/include/qt6/QtCore/qcborcommon.h \
- /usr/include/qt6/QtCore/qcbormap.h /usr/include/qt6/QtCore/qcborstream.h \
+ /usr/include/qt6/QtCore/qcborcommon.h /usr/include/qt6/QtCore/qcbormap.h \
+ /usr/include/qt6/QtCore/qcborstream.h \
  /usr/include/qt6/QtCore/qcborstreamreader.h \
  /usr/include/qt6/QtCore/qcborstreamwriter.h \
  /usr/include/qt6/QtCore/qcborstreamreader.h \
@@ -489,8 +517,6 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /usr/include/qt6/QtCore/qlibraryinfo.h \
  /usr/include/qt6/QtCore/qversionnumber.h \
  /usr/include/qt6/QtCore/qtyperevision.h /usr/include/qt6/QtCore/qline.h \
- /usr/include/qt6/QtCore/qpoint.h \
- /usr/include/qt6/QtCore/qcheckedint_impl.h \
  /usr/include/qt6/QtCore/qlist.h /usr/include/qt6/QtCore/qlocale.h \
  /usr/include/qt6/QtCore/qlockfile.h \
  /usr/include/qt6/QtCore/qloggingcategory.h \
@@ -533,7 +559,6 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /usr/include/qt6/QtCore/qrangemodel_impl.h \
  /usr/include/qt6/QtCore/qmetaobject.h \
  /usr/include/qt6/QtCore/qreadwritelock.h /usr/include/qt6/QtCore/qrect.h \
- /usr/include/qt6/QtCore/qmargins.h /usr/include/qt6/QtCore/qsize.h \
  /usr/include/qt6/QtCore/qrefcount.h \
  /usr/include/qt6/QtCore/qregularexpression.h \
  /usr/include/qt6/QtCore/qresource.h \
@@ -734,17 +759,7 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /usr/include/qt6/QtCore/q23functional.h \
  /usr/include/qt6/QtCore/qyieldcpu.h /usr/include/qt6/QtGui/QtGui \
  /usr/include/qt6/QtGui/QtGuiDepends /usr/include/qt6/QtGui/qtguiglobal.h \
- /usr/include/qt6/QtGui/qtgui-config.h \
- /usr/include/qt6/QtGui/qtguiexports.h \
  /usr/include/qt6/QtGui/qabstractfileiconprovider.h \
- /usr/include/qt6/QtGui/qtguiglobal.h /usr/include/qt6/QtGui/qicon.h \
- /usr/include/qt6/QtGui/qpixmap.h /usr/include/qt6/QtGui/qpaintdevice.h \
- /usr/include/qt6/QtGui/qwindowdefs.h /usr/include/qt6/QtCore/qrect.h \
- /usr/include/qt6/QtGui/qcolor.h /usr/include/qt6/QtGui/qrgb.h \
- /usr/include/qt6/QtGui/qrgba64.h /usr/include/qt6/QtGui/qimage.h \
- /usr/include/qt6/QtGui/qpixelformat.h \
- /usr/include/qt6/QtGui/qtransform.h /usr/include/qt6/QtGui/qpolygon.h \
- /usr/include/qt6/QtGui/qregion.h /usr/include/qt6/QtCore/qline.h \
  /usr/include/qt6/QtGui/qabstracttextdocumentlayout.h \
  /usr/include/qt6/QtGui/qtextlayout.h /usr/include/qt6/QtGui/qevent.h \
  /usr/include/qt6/QtGui/qeventpoint.h /usr/include/qt6/QtGui/qvector2d.h \
@@ -758,14 +773,12 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /usr/include/qt6/QtGui/qguiapplication.h \
  /usr/include/qt6/QtGui/qinputmethod.h \
  /usr/include/qt6/QtGui/qguiapplication_platform.h \
- /usr/include/qt6/QtGui/qkeysequence.h /usr/include/qt6/QtGui/qglyphrun.h \
- /usr/include/qt6/QtGui/qrawfont.h /usr/include/qt6/QtGui/qfont.h \
+ /usr/include/qt6/QtGui/qglyphrun.h /usr/include/qt6/QtGui/qrawfont.h \
  /usr/include/qt6/QtGui/qfontdatabase.h \
  /usr/include/qt6/QtGui/qtextcursor.h \
  /usr/include/qt6/QtGui/qtextdocument.h \
- /usr/include/qt6/QtGui/qtextformat.h /usr/include/qt6/QtGui/qbrush.h \
- /usr/include/qt6/QtGui/qpen.h /usr/include/qt6/QtGui/qtextoption.h \
- /usr/include/qt6/QtGui/qpalette.h \
+ /usr/include/qt6/QtGui/qtextformat.h /usr/include/qt6/QtGui/qpen.h \
+ /usr/include/qt6/QtGui/qtextoption.h \
  /usr/include/qt6/QtGui/qaccessibilityhints.h \
  /usr/include/qt6/QtGui/qaccessible.h \
  /usr/include/qt6/QtGui/qaccessible_base.h \
@@ -775,11 +788,10 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /usr/include/qt6/QtGui/qaccessible.h \
  /usr/include/qt6/QtGui/qaccessibleplugin.h \
  /usr/include/qt6/QtGui/qaction.h /usr/include/qt6/QtGui/qactiongroup.h \
- /usr/include/qt6/QtGui/qaction.h /usr/include/qt6/QtGui/qbackingstore.h \
- /usr/include/qt6/QtGui/qwindow.h /usr/include/qt6/QtCore/QEvent \
- /usr/include/qt6/QtCore/QMargins /usr/include/qt6/QtGui/qsurface.h \
- /usr/include/qt6/QtGui/qsurfaceformat.h /usr/include/qt6/QtGui/qcursor.h \
- /usr/include/qt6/QtGui/qbitmap.h /usr/include/qt6/QtGui/qbitmap.h \
+ /usr/include/qt6/QtGui/qbackingstore.h /usr/include/qt6/QtGui/qwindow.h \
+ /usr/include/qt6/QtCore/QEvent /usr/include/qt6/QtCore/QMargins \
+ /usr/include/qt6/QtGui/qsurface.h \
+ /usr/include/qt6/QtGui/qsurfaceformat.h /usr/include/qt6/QtGui/qbitmap.h \
  /usr/include/qt6/QtGui/qbrush.h /usr/include/qt6/QtGui/qclipboard.h \
  /usr/include/qt6/QtGui/qcolor.h /usr/include/qt6/QtGui/qcolorspace.h \
  /usr/include/qt6/QtGui/qcolortransform.h \
@@ -789,9 +801,7 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /usr/include/qt6/QtGui/qevent.h /usr/include/qt6/QtGui/qeventpoint.h \
  /usr/include/qt6/QtGui/qfilesystemmodel.h /usr/include/qt6/QtGui/qfont.h \
  /usr/include/qt6/QtGui/qfontdatabase.h \
- /usr/include/qt6/QtGui/qfontinfo.h \
- /usr/include/qt6/QtGui/qfontvariableaxis.h \
- /usr/include/qt6/QtGui/qfontmetrics.h \
+ /usr/include/qt6/QtGui/qfontinfo.h /usr/include/qt6/QtGui/qfontmetrics.h \
  /usr/include/qt6/QtGui/qfontvariableaxis.h \
  /usr/include/qt6/QtGui/qgenericmatrix.h \
  /usr/include/qt6/QtGui/qgenericplugin.h \
@@ -834,7 +844,6 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /usr/include/qt6/QtGui/QWindow /usr/include/qt6/QtGui/qwindow.h \
  /usr/include/qt6/QtGui/QPaintDevice \
  /usr/include/qt6/QtGui/qpaintengine.h /usr/include/qt6/QtGui/qpainter.h \
- /usr/include/qt6/QtGui/qfontinfo.h /usr/include/qt6/QtGui/qfontmetrics.h \
  /usr/include/qt6/QtGui/qpainter.h /usr/include/qt6/QtGui/qpainterpath.h \
  /usr/include/qt6/QtGui/qpainterstateguard.h \
  /usr/include/qt6/QtGui/qpalette.h \
@@ -870,13 +879,143 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /usr/include/qt6/QtGui/qvalidator.h /usr/include/qt6/QtGui/qvector2d.h \
  /usr/include/qt6/QtGui/qvector3d.h /usr/include/qt6/QtGui/qvector4d.h \
  /usr/include/qt6/QtGui/qvectornd.h /usr/include/qt6/QtGui/qwindowdefs.h \
+ /usr/include/qt6/QtNetwork/QtNetwork \
+ /usr/include/qt6/QtNetwork/QtNetworkDepends \
+ /usr/include/qt6/QtNetwork/qtnetworkglobal.h \
+ /usr/include/qt6/QtNetwork/qtnetwork-config.h \
+ /usr/include/qt6/QtNetwork/qtnetworkexports.h \
+ /usr/include/qt6/QtNetwork/qabstractnetworkcache.h \
+ /usr/include/qt6/QtNetwork/qtnetworkglobal.h \
+ /usr/include/qt6/QtNetwork/qnetworkrequest.h \
+ /usr/include/qt6/QtNetwork/qhttpheaders.h \
+ /usr/include/qt6/QtCore/QSharedDataPointer /usr/include/qt6/QtCore/QUrl \
+ /usr/include/qt6/QtCore/q26numeric.h \
+ /usr/include/qt6/QtNetwork/qabstractsocket.h \
+ /usr/include/qt6/QtNetwork/qauthenticator.h \
+ /usr/include/qt6/QtNetwork/qdnslookup.h \
+ /usr/include/qt6/QtNetwork/qdtls.h \
+ /usr/include/qt6/QtNetwork/qsslsocket.h \
+ /usr/include/qt6/QtNetwork/qtcpsocket.h \
+ /usr/include/qt6/QtNetwork/qabstractsocket.h \
+ /usr/include/qt6/QtNetwork/qhostaddress.h \
+ /usr/include/qt6/QtNetwork/qsslerror.h \
+ /usr/include/qt6/QtNetwork/qsslcertificate.h \
+ /usr/include/qt6/QtNetwork/qssl.h /usr/include/qt6/QtCore/QFlags \
+ /usr/include/qt6/QtNetwork/qformdatabuilder.h \
+ /usr/include/qt6/QtNetwork/qhttpmultipart.h \
+ /usr/include/qt6/QtCore/QByteArray /usr/include/qt6/QtCore/QIODevice \
+ /usr/include/qt6/QtNetwork/QNetworkRequest \
+ /usr/include/qt6/QtNetwork/qnetworkrequest.h \
+ /usr/include/qt6/QtNetwork/qhostaddress.h \
+ /usr/include/qt6/QtNetwork/qhostinfo.h \
+ /usr/include/qt6/QtNetwork/qhstspolicy.h \
+ /usr/include/qt6/QtNetwork/qhttp1configuration.h \
+ /usr/include/qt6/QtNetwork/qhttp2configuration.h \
+ /usr/include/qt6/QtNetwork/qhttpheaders.h \
+ /usr/include/qt6/QtNetwork/qhttpmultipart.h \
+ /usr/include/qt6/QtNetwork/qlocalserver.h \
+ /usr/include/qt6/QtNetwork/qlocalsocket.h \
+ /usr/include/qt6/QtNetwork/qnetworkaccessmanager.h \
+ /usr/include/qt6/QtNetwork/QSslConfiguration \
+ /usr/include/qt6/QtNetwork/qsslconfiguration.h \
+ /usr/include/qt6/QtNetwork/QSslPreSharedKeyAuthenticator \
+ /usr/include/qt6/QtNetwork/qsslpresharedkeyauthenticator.h \
+ /usr/include/qt6/QtCore/QMetaType \
+ /usr/include/qt6/QtNetwork/qnetworkcookie.h \
+ /usr/include/qt6/QtNetwork/qnetworkcookiejar.h \
+ /usr/include/qt6/QtNetwork/qnetworkdatagram.h \
+ /usr/include/qt6/QtNetwork/qnetworkdiskcache.h \
+ /usr/include/qt6/QtNetwork/qabstractnetworkcache.h \
+ /usr/include/qt6/QtNetwork/qnetworkinformation.h \
+ /usr/include/qt6/QtNetwork/qnetworkinterface.h \
+ /usr/include/qt6/QtNetwork/qnetworkproxy.h \
+ /usr/include/qt6/QtNetwork/qnetworkreply.h \
+ /usr/include/qt6/QtNetwork/QNetworkAccessManager \
+ /usr/include/qt6/QtNetwork/qnetworkrequestfactory.h \
+ /usr/include/qt6/QtCore/qurlquery.h \
+ /usr/include/qt6/QtNetwork/qocspresponse.h \
+ /usr/include/qt6/QtNetwork/qpassworddigestor.h \
+ /usr/include/qt6/QtCore/QCryptographicHash \
+ /usr/include/qt6/QtNetwork/qrestaccessmanager.h \
+ /usr/include/qt6/QtNetwork/qnetworkaccessmanager.h \
+ /usr/include/qt6/QtNetwork/qrestreply.h \
+ /usr/include/qt6/QtNetwork/qnetworkreply.h \
+ /usr/include/qt6/QtNetwork/qssl.h \
+ /usr/include/qt6/QtNetwork/qsslcertificate.h \
+ /usr/include/qt6/QtNetwork/qsslcertificateextension.h \
+ /usr/include/qt6/QtNetwork/qsslcipher.h \
+ /usr/include/qt6/QtNetwork/qssldiffiehellmanparameters.h \
+ /usr/include/qt6/QtNetwork/qsslellipticcurve.h \
+ /usr/include/qt6/QtNetwork/qsslerror.h \
+ /usr/include/qt6/QtNetwork/qsslkey.h \
+ /usr/include/qt6/QtNetwork/qsslserver.h \
+ /usr/include/qt6/QtNetwork/QTcpServer \
+ /usr/include/qt6/QtNetwork/qtcpserver.h \
+ /usr/include/qt6/QtNetwork/QSslError \
+ /usr/include/qt6/QtNetwork/QSslSocket \
+ /usr/include/qt6/QtNetwork/qsslsocket.h \
+ /usr/include/qt6/QtNetwork/qtcpsocket.h \
+ /usr/include/qt6/QtNetwork/qtnetworkversion.h \
+ /usr/include/qt6/QtNetwork/qudpsocket.h \
+ /usr/include/qt6/QtMultimedia/qtmultimediaglobal.h \
+ /usr/include/qt6/QtMultimedia/qtmultimedia-config.h \
+ /usr/include/qt6/QtMultimedia/qtmultimediaexports.h \
+ /usr/include/qt6/QtMultimedia/qabstractvideobuffer.h \
+ /usr/include/qt6/QtMultimedia/qvideoframe.h \
+ /usr/include/qt6/QtMultimedia/qtmultimediaglobal.h \
+ /usr/include/qt6/QtMultimedia/qtvideo.h \
+ /usr/include/qt6/QtMultimedia/qvideoframeformat.h \
+ /usr/include/qt6/QtMultimedia/qaudio.h \
+ /usr/include/qt6/QtMultimedia/qaudiobuffer.h \
+ /usr/include/qt6/QtMultimedia/qtaudio.h \
+ /usr/include/qt6/QtMultimedia/qaudio.h \
+ /usr/include/qt6/QtMultimedia/qaudioformat.h \
+ /usr/include/qt6/QtMultimedia/qaudiobufferinput.h \
+ /usr/include/qt6/QtMultimedia/qaudiobuffer.h \
+ /usr/include/qt6/QtMultimedia/qaudiobufferoutput.h \
+ /usr/include/qt6/QtMultimedia/qaudiodecoder.h \
+ /usr/include/qt6/QtMultimedia/qaudiodevice.h \
+ /usr/include/qt6/QtMultimedia/qaudioformat.h \
+ /usr/include/qt6/QtMultimedia/qaudioinput.h \
+ /usr/include/qt6/QtMultimedia/qaudiooutput.h \
+ /usr/include/qt6/QtMultimedia/qaudiosink.h \
+ /usr/include/qt6/QtMultimedia/qaudiodevice.h \
+ /usr/include/qt6/QtMultimedia/qaudiosource.h \
+ /usr/include/qt6/QtMultimedia/qcamera.h \
+ /usr/include/qt6/QtMultimedia/qcameradevice.h \
+ /usr/include/qt6/QtMultimedia/qcameradevice.h \
+ /usr/include/qt6/QtMultimedia/qcapturablewindow.h \
+ /usr/include/qt6/QtMultimedia/qimagecapture.h \
+ /usr/include/qt6/QtMultimedia/qmediacapturesession.h \
+ /usr/include/qt6/QtMultimedia/qmediadevices.h \
+ /usr/include/qt6/QtMultimedia/qmediaformat.h \
+ /usr/include/qt6/QtMultimedia/qmediametadata.h \
+ /usr/include/qt6/QtMultimedia/qmediaplayer.h \
+ /usr/include/qt6/QtMultimedia/qmediarecorder.h \
+ /usr/include/qt6/QtMultimedia/qmediametadata.h \
+ /usr/include/qt6/QtMultimedia/qmediatimerange.h \
+ /usr/include/qt6/QtMultimedia/qplaybackoptions.h \
+ /usr/include/qt6/QtMultimedia/qscreencapture.h \
+ /usr/include/qt6/QtMultimedia/qsoundeffect.h \
+ /usr/include/qt6/QtMultimedia/qtaudio.h \
+ /usr/include/qt6/QtMultimedia/qtmultimediaversion.h \
+ /usr/include/qt6/QtMultimedia/qtvideo.h \
+ /usr/include/qt6/QtMultimedia/qvideoframe.h \
+ /usr/include/qt6/QtMultimedia/qvideoframeformat.h \
+ /usr/include/qt6/QtMultimedia/qvideoframeinput.h \
+ /usr/include/qt6/QtMultimedia/qvideosink.h \
+ /usr/include/qt6/QtMultimedia/qwavedecoder.h \
+ /usr/include/qt6/QtMultimedia/qwindowcapture.h \
+ /usr/include/qt6/QtMultimedia/qcapturablewindow.h \
+ /usr/include/c++/15.2.1/queue /usr/include/c++/15.2.1/deque \
+ /usr/include/c++/15.2.1/bits/stl_deque.h \
+ /usr/include/c++/15.2.1/bits/deque.tcc \
+ /usr/include/c++/15.2.1/bits/stl_queue.h \
+ /usr/include/qt6/QtWidgets/QtWidgets \
+ /usr/include/qt6/QtWidgets/QtWidgetsDepends \
  /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
- /usr/include/qt6/QtWidgets/qtwidgets-config.h \
- /usr/include/qt6/QtWidgets/qtwidgetsexports.h \
  /usr/include/qt6/QtWidgets/qabstractbutton.h \
- /usr/include/qt6/QtWidgets/qtwidgetsglobal.h \
  /usr/include/qt6/QtWidgets/qwidget.h \
- /usr/include/qt6/QtWidgets/qsizepolicy.h \
  /usr/include/qt6/QtWidgets/qabstractitemdelegate.h \
  /usr/include/qt6/QtWidgets/qstyleoption.h \
  /usr/include/qt6/QtWidgets/qabstractspinbox.h \
@@ -999,7 +1138,7 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /usr/include/qt6/QtWidgets/qscroller.h /usr/include/qt6/QtCore/QPointF \
  /usr/include/qt6/QtWidgets/QScrollerProperties \
  /usr/include/qt6/QtWidgets/qscrollerproperties.h \
- /usr/include/qt6/QtCore/QScopedPointer /usr/include/qt6/QtCore/QMetaType \
+ /usr/include/qt6/QtCore/QScopedPointer \
  /usr/include/qt6/QtWidgets/qshortcut.h /usr/include/qt6/QtGui/QShortcut \
  /usr/include/qt6/QtWidgets/qsizegrip.h \
  /usr/include/qt6/QtWidgets/qsizepolicy.h \
@@ -1036,145 +1175,8 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: \
  /usr/include/qt6/QtWidgets/qtwidgetsversion.h \
  /usr/include/qt6/QtWidgets/qundoview.h \
  /usr/include/qt6/QtWidgets/qwhatsthis.h \
- /usr/include/qt6/QtWidgets/qwidget.h \
  /usr/include/qt6/QtWidgets/qwidgetaction.h \
- /usr/include/qt6/QtWidgets/qwizard.h \
- /home/grog/Code-Stuff/AudioPlayer/src/gamewindow.h \
- /usr/include/qt6/QtWidgets/QWidget \
- /usr/include/qt6/QtMultimedia/QtMultimedia \
- /usr/include/qt6/QtMultimedia/QtMultimediaDepends \
- /usr/include/qt6/QtNetwork/QtNetwork \
- /usr/include/qt6/QtNetwork/QtNetworkDepends \
- /usr/include/qt6/QtNetwork/qtnetworkglobal.h \
- /usr/include/qt6/QtNetwork/qtnetwork-config.h \
- /usr/include/qt6/QtNetwork/qtnetworkexports.h \
- /usr/include/qt6/QtNetwork/qabstractnetworkcache.h \
- /usr/include/qt6/QtNetwork/qtnetworkglobal.h \
- /usr/include/qt6/QtNetwork/qnetworkrequest.h \
- /usr/include/qt6/QtNetwork/qhttpheaders.h \
- /usr/include/qt6/QtCore/QSharedDataPointer /usr/include/qt6/QtCore/QUrl \
- /usr/include/qt6/QtCore/q26numeric.h \
- /usr/include/qt6/QtNetwork/qabstractsocket.h \
- /usr/include/qt6/QtNetwork/qauthenticator.h \
- /usr/include/qt6/QtNetwork/qdnslookup.h \
- /usr/include/qt6/QtNetwork/qdtls.h \
- /usr/include/qt6/QtNetwork/qsslsocket.h \
- /usr/include/qt6/QtNetwork/qtcpsocket.h \
- /usr/include/qt6/QtNetwork/qabstractsocket.h \
- /usr/include/qt6/QtNetwork/qhostaddress.h \
- /usr/include/qt6/QtNetwork/qsslerror.h \
- /usr/include/qt6/QtNetwork/qsslcertificate.h \
- /usr/include/qt6/QtNetwork/qssl.h /usr/include/qt6/QtCore/QFlags \
- /usr/include/qt6/QtNetwork/qformdatabuilder.h \
- /usr/include/qt6/QtNetwork/qhttpmultipart.h \
- /usr/include/qt6/QtCore/QByteArray /usr/include/qt6/QtCore/QIODevice \
- /usr/include/qt6/QtNetwork/QNetworkRequest \
- /usr/include/qt6/QtNetwork/qnetworkrequest.h \
- /usr/include/qt6/QtNetwork/qhostaddress.h \
- /usr/include/qt6/QtNetwork/qhostinfo.h \
- /usr/include/qt6/QtNetwork/qhstspolicy.h \
- /usr/include/qt6/QtNetwork/qhttp1configuration.h \
- /usr/include/qt6/QtNetwork/qhttp2configuration.h \
- /usr/include/qt6/QtNetwork/qhttpheaders.h \
- /usr/include/qt6/QtNetwork/qhttpmultipart.h \
- /usr/include/qt6/QtNetwork/qlocalserver.h \
- /usr/include/qt6/QtNetwork/qlocalsocket.h \
- /usr/include/qt6/QtNetwork/qnetworkaccessmanager.h \
- /usr/include/qt6/QtNetwork/QSslConfiguration \
- /usr/include/qt6/QtNetwork/qsslconfiguration.h \
- /usr/include/qt6/QtNetwork/QSslPreSharedKeyAuthenticator \
- /usr/include/qt6/QtNetwork/qsslpresharedkeyauthenticator.h \
- /usr/include/qt6/QtNetwork/qnetworkcookie.h \
- /usr/include/qt6/QtNetwork/qnetworkcookiejar.h \
- /usr/include/qt6/QtNetwork/qnetworkdatagram.h \
- /usr/include/qt6/QtNetwork/qnetworkdiskcache.h \
- /usr/include/qt6/QtNetwork/qabstractnetworkcache.h \
- /usr/include/qt6/QtNetwork/qnetworkinformation.h \
- /usr/include/qt6/QtNetwork/qnetworkinterface.h \
- /usr/include/qt6/QtNetwork/qnetworkproxy.h \
- /usr/include/qt6/QtNetwork/qnetworkreply.h \
- /usr/include/qt6/QtNetwork/QNetworkAccessManager \
- /usr/include/qt6/QtNetwork/qnetworkrequestfactory.h \
- /usr/include/qt6/QtCore/qurlquery.h \
- /usr/include/qt6/QtNetwork/qocspresponse.h \
- /usr/include/qt6/QtNetwork/qpassworddigestor.h \
- /usr/include/qt6/QtCore/QCryptographicHash \
- /usr/include/qt6/QtNetwork/qrestaccessmanager.h \
- /usr/include/qt6/QtNetwork/qnetworkaccessmanager.h \
- /usr/include/qt6/QtNetwork/qrestreply.h \
- /usr/include/qt6/QtNetwork/qnetworkreply.h \
- /usr/include/qt6/QtNetwork/qssl.h \
- /usr/include/qt6/QtNetwork/qsslcertificate.h \
- /usr/include/qt6/QtNetwork/qsslcertificateextension.h \
- /usr/include/qt6/QtNetwork/qsslcipher.h \
- /usr/include/qt6/QtNetwork/qssldiffiehellmanparameters.h \
- /usr/include/qt6/QtNetwork/qsslellipticcurve.h \
- /usr/include/qt6/QtNetwork/qsslerror.h \
- /usr/include/qt6/QtNetwork/qsslkey.h \
- /usr/include/qt6/QtNetwork/qsslserver.h \
- /usr/include/qt6/QtNetwork/QTcpServer \
- /usr/include/qt6/QtNetwork/qtcpserver.h \
- /usr/include/qt6/QtNetwork/QSslError \
- /usr/include/qt6/QtNetwork/QSslSocket \
- /usr/include/qt6/QtNetwork/qsslsocket.h \
- /usr/include/qt6/QtNetwork/qtcpsocket.h \
- /usr/include/qt6/QtNetwork/qtnetworkversion.h \
- /usr/include/qt6/QtNetwork/qudpsocket.h \
- /usr/include/qt6/QtMultimedia/qtmultimediaglobal.h \
- /usr/include/qt6/QtMultimedia/qtmultimedia-config.h \
- /usr/include/qt6/QtMultimedia/qtmultimediaexports.h \
- /usr/include/qt6/QtMultimedia/qabstractvideobuffer.h \
- /usr/include/qt6/QtMultimedia/qvideoframe.h \
- /usr/include/qt6/QtMultimedia/qtmultimediaglobal.h \
- /usr/include/qt6/QtMultimedia/qtvideo.h \
- /usr/include/qt6/QtMultimedia/qvideoframeformat.h \
- /usr/include/qt6/QtMultimedia/qaudio.h \
- /usr/include/qt6/QtMultimedia/qaudiobuffer.h \
- /usr/include/qt6/QtMultimedia/qtaudio.h \
- /usr/include/qt6/QtMultimedia/qaudio.h \
- /usr/include/qt6/QtMultimedia/qaudioformat.h \
- /usr/include/qt6/QtMultimedia/qaudiobufferinput.h \
- /usr/include/qt6/QtMultimedia/qaudiobuffer.h \
- /usr/include/qt6/QtMultimedia/qaudiobufferoutput.h \
- /usr/include/qt6/QtMultimedia/qaudiodecoder.h \
- /usr/include/qt6/QtMultimedia/qaudiodevice.h \
- /usr/include/qt6/QtMultimedia/qaudioformat.h \
- /usr/include/qt6/QtMultimedia/qaudioinput.h \
- /usr/include/qt6/QtMultimedia/qaudiooutput.h \
- /usr/include/qt6/QtMultimedia/qaudiosink.h \
- /usr/include/qt6/QtMultimedia/qaudiodevice.h \
- /usr/include/qt6/QtMultimedia/qaudiosource.h \
- /usr/include/qt6/QtMultimedia/qcamera.h \
- /usr/include/qt6/QtMultimedia/qcameradevice.h \
- /usr/include/qt6/QtMultimedia/qcameradevice.h \
- /usr/include/qt6/QtMultimedia/qcapturablewindow.h \
- /usr/include/qt6/QtMultimedia/qimagecapture.h \
- /usr/include/qt6/QtMultimedia/qmediacapturesession.h \
- /usr/include/qt6/QtMultimedia/qmediadevices.h \
- /usr/include/qt6/QtMultimedia/qmediaformat.h \
- /usr/include/qt6/QtMultimedia/qmediametadata.h \
- /usr/include/qt6/QtMultimedia/qmediaplayer.h \
- /usr/include/qt6/QtMultimedia/qmediarecorder.h \
- /usr/include/qt6/QtMultimedia/qmediametadata.h \
- /usr/include/qt6/QtMultimedia/qmediatimerange.h \
- /usr/include/qt6/QtMultimedia/qplaybackoptions.h \
- /usr/include/qt6/QtMultimedia/qscreencapture.h \
- /usr/include/qt6/QtMultimedia/qsoundeffect.h \
- /usr/include/qt6/QtMultimedia/qtaudio.h \
- /usr/include/qt6/QtMultimedia/qtmultimediaversion.h \
- /usr/include/qt6/QtMultimedia/qtvideo.h \
- /usr/include/qt6/QtMultimedia/qvideoframe.h \
- /usr/include/qt6/QtMultimedia/qvideoframeformat.h \
- /usr/include/qt6/QtMultimedia/qvideoframeinput.h \
- /usr/include/qt6/QtMultimedia/qvideosink.h \
- /usr/include/qt6/QtMultimedia/qwavedecoder.h \
- /usr/include/qt6/QtMultimedia/qwindowcapture.h \
- /usr/include/qt6/QtMultimedia/qcapturablewindow.h \
- /usr/include/c++/15.2.1/queue /usr/include/c++/15.2.1/deque \
- /usr/include/c++/15.2.1/bits/stl_deque.h \
- /usr/include/c++/15.2.1/bits/deque.tcc \
- /usr/include/c++/15.2.1/bits/stl_queue.h /usr/include/c++/15.2.1/fstream \
+ /usr/include/qt6/QtWidgets/qwizard.h /usr/include/c++/15.2.1/fstream \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
  /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
- /usr/include/c++/15.2.1/bits/fstream.tcc \
- /usr/include/c++/15.2.1/iostream
+ /usr/include/c++/15.2.1/bits/fstream.tcc

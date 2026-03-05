@@ -49,6 +49,7 @@ class GameWindow : public QWidget {
     private slots:
         void turnOnMusic();
         void nextTrack();
+        void checkForTrackEnding(QMediaPlayer::MediaStatus status);
 };
 
 

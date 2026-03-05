@@ -45,7 +45,10 @@ template <> constexpr inline auto GameWindow::qt_create_metaobjectdata<qt_meta_t
         "GameWindow",
         "turnOnMusic",
         "",
-        "nextTrack"
+        "nextTrack",
+        "checkForTrackEnding",
+        "QMediaPlayer::MediaStatus",
+        "status"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -53,6 +56,10 @@ template <> constexpr inline auto GameWindow::qt_create_metaobjectdata<qt_meta_t
         QtMocHelpers::SlotData<void()>(1, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'nextTrack'
         QtMocHelpers::SlotData<void()>(3, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'checkForTrackEnding'
+        QtMocHelpers::SlotData<void(QMediaPlayer::MediaStatus)>(4, 2, QMC::AccessPrivate, QMetaType::Void, {{
+            { 0x80000000 | 5, 6 },
+        }}),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -78,10 +85,10 @@ void GameWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         switch (_id) {
         case 0: _t->turnOnMusic(); break;
         case 1: _t->nextTrack(); break;
+        case 2: _t->checkForTrackEnding((*reinterpret_cast<std::add_pointer_t<QMediaPlayer::MediaStatus>>(_a[1]))); break;
         default: ;
         }
     }
-    (void)_a;
 }
 
 const QMetaObject *GameWindow::metaObject() const
@@ -103,14 +110,14 @@ int GameWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 2)
+        if (_id < 3)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 2;
+        _id -= 3;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 2)
+        if (_id < 3)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 2;
+        _id -= 3;
     }
     return _id;
 }
