@@ -33,6 +33,7 @@ class GameWindow : public QWidget {
         //Media Player Stuff
         QMediaPlayer* player;
         QAudioOutput* audioOutput;
+        int musicState = 0; //0 hasn't started, 1 paused, 2 playing
         QString filepath;
 
         //Game Picture and Track Title
@@ -47,7 +48,7 @@ class GameWindow : public QWidget {
         void getGame();
 
     private slots:
-        void turnOnMusic();
+        void toggleMusic();
         void nextTrack();
         void checkForTrackEnding(QMediaPlayer::MediaStatus status);
 };

@@ -43,7 +43,7 @@ template <> constexpr inline auto GameWindow::qt_create_metaobjectdata<qt_meta_t
     namespace QMC = QtMocConstants;
     QtMocHelpers::StringRefStorage qt_stringData {
         "GameWindow",
-        "turnOnMusic",
+        "toggleMusic",
         "",
         "nextTrack",
         "checkForTrackEnding",
@@ -52,7 +52,7 @@ template <> constexpr inline auto GameWindow::qt_create_metaobjectdata<qt_meta_t
     };
 
     QtMocHelpers::UintData qt_methods {
-        // Slot 'turnOnMusic'
+        // Slot 'toggleMusic'
         QtMocHelpers::SlotData<void()>(1, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'nextTrack'
         QtMocHelpers::SlotData<void()>(3, 2, QMC::AccessPrivate, QMetaType::Void),
@@ -83,7 +83,7 @@ void GameWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
     auto *_t = static_cast<GameWindow *>(_o);
     if (_c == QMetaObject::InvokeMetaMethod) {
         switch (_id) {
-        case 0: _t->turnOnMusic(); break;
+        case 0: _t->toggleMusic(); break;
         case 1: _t->nextTrack(); break;
         case 2: _t->checkForTrackEnding((*reinterpret_cast<std::add_pointer_t<QMediaPlayer::MediaStatus>>(_a[1]))); break;
         default: ;
