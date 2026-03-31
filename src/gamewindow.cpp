@@ -139,15 +139,15 @@ void GameWindow::readSongs() {
  */
 void GameWindow::shuffleQueue() {
     //Setup indexes vector
-    std::vector<int> indexes;
+    std::vector<int> songListIndices;
     for (int i = 0; i < songList.size(); i++) {
-        indexes.push_back(i);
+        songListIndices.push_back(i);
     }
-    
+
     for (int i = 0; i < songList.size(); i++) {
-        int currentRandomIndex = indexes[getRandomNumber(0, indexes.size() - 1)];
-        indexes.erase(indexes.begin() + currentRandomIndex);
-        songQueue.push(songList[currentRandomIndex]);
+        int currentRandomIndex = getRandomNumber(0, songListIndices.size() - 1);
+        songQueue.push(songList[songListIndices[currentRandomIndex]]);
+        songListIndices.erase(songListIndices.begin() + currentRandomIndex);
     }
 }
 

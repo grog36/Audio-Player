@@ -312,6 +312,7 @@
   /usr/include/qt6/QtCore/QtCoreDepends \
   /usr/include/qt6/QtCore/q17memory.h \
   /usr/include/qt6/QtCore/q20algorithm.h \
+  /usr/include/qt6/QtCore/q20bit.h \
   /usr/include/qt6/QtCore/q20chrono.h \
   /usr/include/qt6/QtCore/q20functional.h \
   /usr/include/qt6/QtCore/q20iterator.h \
@@ -422,6 +423,7 @@
   /usr/include/qt6/QtCore/qiodevicebase.h \
   /usr/include/qt6/QtCore/qitemselectionmodel.h \
   /usr/include/qt6/QtCore/qiterable.h \
+  /usr/include/qt6/QtCore/qiterable_impl.h \
   /usr/include/qt6/QtCore/qiterator.h \
   /usr/include/qt6/QtCore/qjsonarray.h \
   /usr/include/qt6/QtCore/qjsondocument.h \
@@ -443,8 +445,10 @@
   /usr/include/qt6/QtCore/qmargins.h \
   /usr/include/qt6/QtCore/qmath.h \
   /usr/include/qt6/QtCore/qmessageauthenticationcode.h \
+  /usr/include/qt6/QtCore/qmetaassociation.h \
   /usr/include/qt6/QtCore/qmetacontainer.h \
   /usr/include/qt6/QtCore/qmetaobject.h \
+  /usr/include/qt6/QtCore/qmetasequence.h \
   /usr/include/qt6/QtCore/qmetatype.h \
   /usr/include/qt6/QtCore/qmimedata.h \
   /usr/include/qt6/QtCore/qmimedatabase.h \
@@ -475,10 +479,13 @@
   /usr/include/qt6/QtCore/qproperty.h \
   /usr/include/qt6/QtCore/qpropertyanimation.h \
   /usr/include/qt6/QtCore/qpropertyprivate.h \
+  /usr/include/qt6/QtCore/qquasivirtual_impl.h \
   /usr/include/qt6/QtCore/qqueue.h \
   /usr/include/qt6/QtCore/qrandom.h \
   /usr/include/qt6/QtCore/qrangemodel.h \
   /usr/include/qt6/QtCore/qrangemodel_impl.h \
+  /usr/include/qt6/QtCore/qrangemodeladapter.h \
+  /usr/include/qt6/QtCore/qrangemodeladapter_impl.h \
   /usr/include/qt6/QtCore/qreadwritelock.h \
   /usr/include/qt6/QtCore/qrect.h \
   /usr/include/qt6/QtCore/qrefcount.h \

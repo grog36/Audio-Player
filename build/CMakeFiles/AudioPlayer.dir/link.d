@@ -5,13 +5,13 @@ AudioPlayer: \
   CMakeFiles/AudioPlayer.dir/AudioPlayer_autogen/mocs_compilation.cpp.o \
   CMakeFiles/AudioPlayer.dir/src/main.cpp.o \
   CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o \
-  /usr/lib/libQt6Widgets.so.6.10.2 \
-  /usr/lib/libQt6Multimedia.so.6.10.2 \
-  /usr/lib/libQt6Gui.so.6.10.2 \
+  /usr/lib/libQt6Widgets.so.6.11.0 \
+  /usr/lib/libQt6Multimedia.so.6.11.0 \
+  /usr/lib/libQt6Gui.so.6.11.0 \
   /usr/lib/libGLX.so \
   /usr/lib/libOpenGL.so \
-  /usr/lib/libQt6Network.so.6.10.2 \
-  /usr/lib/libQt6Core.so.6.10.2 \
+  /usr/lib/libQt6Network.so.6.11.0 \
+  /usr/lib/libQt6Core.so.6.11.0 \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libstdc++.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libm.so \
@@ -60,6 +60,7 @@ AudioPlayer: \
   /usr/lib/libproxy.so.1 \
   /usr/lib/libproxy.so.1 \
   /usr/lib/libcrypto.so.3 \
+  /usr/lib/liburing.so.2 \
   /usr/lib/libicui18n.so.78 \
   /usr/lib/libicuuc.so.78 \
   /usr/lib/libsystemd.so.0 \
@@ -155,19 +156,19 @@ CMakeFiles/AudioPlayer.dir/src/main.cpp.o:
 
 CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o:
 
-/usr/lib/libQt6Widgets.so.6.10.2:
+/usr/lib/libQt6Widgets.so.6.11.0:
 
-/usr/lib/libQt6Multimedia.so.6.10.2:
+/usr/lib/libQt6Multimedia.so.6.11.0:
 
-/usr/lib/libQt6Gui.so.6.10.2:
+/usr/lib/libQt6Gui.so.6.11.0:
 
 /usr/lib/libGLX.so:
 
 /usr/lib/libOpenGL.so:
 
-/usr/lib/libQt6Network.so.6.10.2:
+/usr/lib/libQt6Network.so.6.11.0:
 
-/usr/lib/libQt6Core.so.6.10.2:
+/usr/lib/libQt6Core.so.6.11.0:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/../../../../lib/libstdc++.so:
 
@@ -264,6 +265,8 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o:
 /usr/lib/libproxy.so.1:
 
 /usr/lib/libcrypto.so.3:
+
+/usr/lib/liburing.so.2:
 
 /usr/lib/libicui18n.so.78:
 
