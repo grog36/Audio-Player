@@ -1386,80 +1386,22 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsaveoptintrin.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xsavesintrin.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/xtestintrin.h \
-  /usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
-  /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
   /usr/share/cmake/Modules/CMakeCXXInformation.cmake \
   /usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
-  /usr/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCompiler.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake \
-  /usr/share/cmake/Modules/CMakeDetermineSystem.cmake \
-  /usr/share/cmake/Modules/CMakeFindBinUtils.cmake \
   /usr/share/cmake/Modules/CMakeFindDependencyMacro.cmake \
   /usr/share/cmake/Modules/CMakeGenericSystem.cmake \
   /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake \
   /usr/share/cmake/Modules/CMakeLanguageInformation.cmake \
-  /usr/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
-  /usr/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
-  /usr/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
-  /usr/share/cmake/Modules/CMakeSystem.cmake.in \
   /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
   /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
-  /usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
-  /usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
   /usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake \
   /usr/share/cmake/Modules/CheckCXXSourceCompiles.cmake \
   /usr/share/cmake/Modules/CheckIncludeFileCXX.cmake \
   /usr/share/cmake/Modules/CheckLibraryExists.cmake \
-  /usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
   /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  /usr/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-  /usr/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
   /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake \
-  /usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake \
   /usr/share/cmake/Modules/Compiler/GNU.cmake \
-  /usr/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-  /usr/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-  /usr/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   /usr/share/cmake/Modules/FindOpenGL.cmake \
   /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake \
   /usr/share/cmake/Modules/FindPackageMessage.cmake \
@@ -1468,19 +1410,15 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
   /usr/share/cmake/Modules/GNUInstallDirs.cmake \
   /usr/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake \
   /usr/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake \
-  /usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake \
-  /usr/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake \
   /usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake \
   /usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake \
   /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake \
-  /usr/share/cmake/Modules/Internal/FeatureTesting.cmake \
   /usr/share/cmake/Modules/Linker/GNU-CXX.cmake \
   /usr/share/cmake/Modules/Linker/GNU.cmake \
   /usr/share/cmake/Modules/MacroAddFileDependencies.cmake \
   /usr/share/cmake/Modules/Platform/Linker/GNU.cmake \
   /usr/share/cmake/Modules/Platform/Linker/Linux-GNU-CXX.cmake \
   /usr/share/cmake/Modules/Platform/Linker/Linux-GNU.cmake \
-  /usr/share/cmake/Modules/Platform/Linux-Determine-CXX.cmake \
   /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake \
   /usr/share/cmake/Modules/Platform/Linux-GNU.cmake \
   /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake \
@@ -1498,15 +1436,11 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 
 /usr/share/cmake/Modules/Linker/GNU-CXX.cmake:
 
-/usr/share/cmake/Modules/Internal/FeatureTesting.cmake:
-
 /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:
 
 /usr/share/cmake/Modules/Internal/CheckFlagCommonConfig.cmake:
 
 /usr/share/cmake/Modules/Internal/CheckCompilerFlag.cmake:
-
-/usr/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:
 
 /usr/share/cmake/Modules/FindVulkan.cmake:
 
@@ -1516,77 +1450,15 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 
 /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake:
 
-/usr/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake:
-
-/usr/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake:
-
-/usr/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake:
-
 /usr/share/cmake/Modules/CheckIncludeFileCXX.cmake:
 
 /usr/share/cmake/Modules/CheckCXXCompilerFlag.cmake:
 
-/usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake:
-
 /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:
-
-/usr/share/cmake/Modules/CMakeSystem.cmake.in:
-
-/usr/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake:
 
 /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake:
 
 /usr/share/cmake/Modules/CMakeGenericSystem.cmake:
-
-/usr/share/cmake/Modules/CMakeFindBinUtils.cmake:
-
-/usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake:
-
-/usr/share/cmake/Modules/CMakeDetermineCompiler.cmake:
-
-/usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:
 
 /usr/share/cmake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake:
 
@@ -1643,8 +1515,6 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdbool.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/ia32intrin.h:
-
-/usr/share/cmake/Modules/Compiler/Renesas-DetermineCompiler.cmake:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/hresetintrin.h:
 
@@ -1965,8 +1835,6 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 /usr/include/qt6/QtCore/qsize.h:
 
 /usr/include/qt6/QtCore/qrunnable.h:
-
-/usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake:
 
 /usr/include/qt6/QtCore/qsettings.h:
 
@@ -2378,8 +2246,6 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 
 /usr/include/qt6/QtCore/qsharedmemory.h:
 
-/usr/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
-
 /usr/bin/cmake:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/fxsrintrin.h:
@@ -2406,8 +2272,6 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 
 /usr/lib/cmake/Qt6Concurrent/Qt6ConcurrentTargets.cmake:
 
-/usr/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake:
-
 /usr/include/c++/15.2.1/unordered_set:
 
 /usr/lib/cmake/Qt6Widgets/Qt6WidgetsTargets.cmake:
@@ -2419,8 +2283,6 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 /usr/lib/cmake/Qt6DBusTools/Qt6DBusToolsTargetsPrecheck.cmake:
 
 /usr/include/c++/15.2.1/type_traits:
-
-/usr/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake:
 
 /usr/include/errno.h:
 
@@ -2447,8 +2309,6 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 /usr/include/bits/endian.h:
 
 /usr/include/c++/15.2.1/bits/stl_function.h:
-
-/usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/pkuintrin.h:
 
@@ -2513,8 +2373,6 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 /usr/include/c++/15.2.1/bits/postypes.h:
 
 /usr/include/c++/15.2.1/bits/algorithmfwd.h:
-
-/usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargets.cmake:
 
@@ -2653,8 +2511,6 @@ AudioPlayer_autogen/timestamp: /home/grog/Code-Stuff/AudioPlayer/CMakeLists.txt 
 /usr/lib/cmake/Qt6Gui/Qt6QICNSPluginTargets-relwithdebinfo.cmake:
 
 /usr/include/qt6/QtNetwork/qtcpserver.h:
-
-/usr/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake:
 
 /usr/include/qt6/QtCore/qstdlibdetection.h:
 
@@ -2820,8 +2676,6 @@ CMakeFiles/4.3.1/CMakeSystem.cmake:
 
 /home/grog/Code-Stuff/AudioPlayer/src/gamewindow.h:
 
-/usr/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake:
-
 /usr/include/sys/types.h:
 
 /usr/include/bits/wordsize.h:
@@ -2848,8 +2702,6 @@ CMakeFiles/4.3.1/CMakeSystem.cmake:
 
 /usr/include/c++/15.2.1/algorithm:
 
-/usr/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake:
-
 /home/grog/Code-Stuff/AudioPlayer/src/gamewindow.cpp:
 
 /usr/include/bits/struct_rwlock.h:
@@ -2872,15 +2724,11 @@ CMakeFiles/4.3.1/CMakeCXXCompiler.cmake:
 
 /usr/include/qt6/QtCore/qfunctionaltools_impl.h:
 
-/usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake:
-
 /usr/include/c++/15.2.1/bits/ios_base.h:
 
 /usr/include/qt6/QtGui/qpolygon.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEglFSKmsEglDeviceIntegrationPluginConfig.cmake:
-
-/usr/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake:
 
 /usr/lib/cmake/Qt6Network/Qt6QConnManNetworkInformationPluginTargets.cmake:
 
@@ -2982,8 +2830,6 @@ AudioPlayer_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtCore/qttypetraits.h:
 
-/usr/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake:
-
 /usr/include/qt6/QtCore/qmessageauthenticationcode.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QTiffPluginTargets-relwithdebinfo.cmake:
@@ -2997,8 +2843,6 @@ AudioPlayer_autogen/moc_predefs.h:
 /usr/include/qt6/QtCore/qalgorithms.h:
 
 /usr/include/qt6/QtCore/qquasivirtual_impl.h:
-
-/usr/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake:
 
 /usr/include/qt6/QtGui/qpainterpath.h:
 
@@ -3278,8 +3122,6 @@ AudioPlayer_autogen/moc_predefs.h:
 
 /usr/include/c++/15.2.1/bits/uniform_int_dist.h:
 
-/usr/share/cmake/Modules/Compiler/Diab-DetermineCompiler.cmake:
-
 /usr/include/qt6/QtCore/qfutureinterface.h:
 
 /usr/include/qt6/QtGui/qrgbafloat.h:
@@ -3340,8 +3182,6 @@ AudioPlayer_autogen/moc_predefs.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QEvdevTabletPluginTargetsPrecheck.cmake:
 
-/usr/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake:
-
 /usr/include/qt6/QtCore/qstorageinfo.h:
 
 /usr/include/qt6/QtGui/qpixmapcache.h:
@@ -3373,8 +3213,6 @@ AudioPlayer_autogen/moc_predefs.h:
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/avxvnniint16intrin.h:
 
 /usr/include/c++/15.2.1/bits/shared_ptr_base.h:
-
-/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:
 
 /usr/include/c++/15.2.1/string:
 
@@ -3421,8 +3259,6 @@ AudioPlayer_autogen/moc_predefs.h:
 /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h:
 
 /usr/include/c++/15.2.1/optional:
-
-/usr/share/cmake/Modules/CMakeCompilerIdDetection.cmake:
 
 /usr/include/c++/15.2.1/typeinfo:
 
@@ -3474,8 +3310,6 @@ AudioPlayer_autogen/moc_predefs.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QGtk3ThemePluginTargets.cmake:
 
-/usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake:
-
 /usr/include/qt6/QtCore/qtaggedpointer.h:
 
 /usr/include/qt6/QtGui/qaccessibleplugin.h:
@@ -3497,8 +3331,6 @@ AudioPlayer_autogen/moc_predefs.h:
 /usr/include/qt6/QtCore/qthread.h:
 
 /usr/include/qt6/QtCore/qtypes.h:
-
-/usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in:
 
 /usr/include/features-time64.h:
 
@@ -3539,8 +3371,6 @@ AudioPlayer_autogen/moc_predefs.h:
 /usr/include/qt6/QtCore/qtmocconstants.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake:
-
-/usr/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake:
 
 /usr/include/qt6/QtCore/qtnoop.h:
 
@@ -3856,8 +3686,6 @@ AudioPlayer_autogen/moc_predefs.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QGifPluginConfig.cmake:
 
-/usr/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake:
-
 /usr/include/qt6/QtCore/qnumeric.h:
 
 /usr/include/qt6/QtMultimedia/qaudioformat.h:
@@ -3922,8 +3750,6 @@ AudioPlayer_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtMultimedia/qscreencapture.h:
 
-/usr/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake:
-
 /usr/include/c++/15.2.1/bits/char_traits.h:
 
 /usr/lib/cmake/Qt6Gui/Qt6QICNSPluginTargetsPrecheck.cmake:
@@ -3978,11 +3804,7 @@ AudioPlayer_autogen/moc_predefs.h:
 
 /usr/include/qt6/QtNetwork/qhstspolicy.h:
 
-/usr/share/cmake/Modules/Platform/Linux-Determine-CXX.cmake:
-
 /usr/include/qt6/QtNetwork/qlocalsocket.h:
-
-/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp:
 
 /usr/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:
 
@@ -4124,8 +3946,6 @@ AudioPlayer_autogen/moc_predefs.h:
 
 /usr/lib/cmake/Qt6/QtPublicSbomAttributionHelpers.cmake:
 
-/usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:
-
 /usr/lib/cmake/Qt6/QtPublicSbomCpeHelpers.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QLinuxFbIntegrationPluginAdditionalTargetInfo.cmake:
@@ -4137,8 +3957,6 @@ AudioPlayer_autogen/moc_predefs.h:
 /usr/include/gnu/stubs-64.h:
 
 /usr/lib/cmake/Qt6/QtPublicSbomGenerationCycloneDXHelpers.cmake:
-
-/usr/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake:
 
 /usr/include/qt6/QtCore/qurl.h:
 
@@ -4283,8 +4101,6 @@ AudioPlayer_autogen/moc_predefs.h:
 /usr/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake:
-
-/usr/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6GuiTargets-relwithdebinfo.cmake:
 
@@ -4433,8 +4249,6 @@ AudioPlayer_autogen/moc_predefs.h:
 /usr/lib/cmake/Qt6Gui/Qt6QSvgPluginAdditionalTargetInfo.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets-relwithdebinfo.cmake:
-
-/usr/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake:
 
 /usr/lib/cmake/Qt6Gui/Qt6QTgaPluginTargets-relwithdebinfo.cmake:
 

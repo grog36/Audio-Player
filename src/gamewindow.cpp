@@ -9,10 +9,10 @@ GameWindow::GameWindow(QWidget* parent) : QWidget(parent) {
     //Buttons
     playPauseButton = new QPushButton();
     playPauseButton->setText("Start");
-    playPauseButton->setStyleSheet("background-color: green; color: white; font-size: 24px; border: 2px solid red;");
+    playPauseButton->setStyleSheet("background-color: green; color: white; font-size: 24px; border: 2px solid red; border-radius: 15px;");
     nextButton = new QPushButton();
     nextButton->setText("Next Track");
-    nextButton->setStyleSheet("background-color: pink; color: black; font-size: 24px; border: 2px solid red;");
+    nextButton->setStyleSheet("background-color: pink; color: black; font-size: 24px; border: 2px solid red; border-radius: 15px;");
 
     //Game Picture
     gamePicture = new QLabel();
@@ -30,17 +30,12 @@ GameWindow::GameWindow(QWidget* parent) : QWidget(parent) {
 
     //Layout Stuff
     QGridLayout* mainLayout = new QGridLayout();
-    mainLayout->addWidget(trackTitle, 0, 0);
-    mainLayout->addWidget(gamePicture, 1, 0);
-    mainLayout->addWidget(playPauseButton, 2, 0);
-    mainLayout->addWidget(nextButton, 2, 1);
-    //Set column & row sizes
-    mainLayout->setRowStretch(0, 1);
-    mainLayout->setRowStretch(1, 2);
-    mainLayout->setRowStretch(2, 1);
-    mainLayout->setColumnStretch(0, 1);
-    mainLayout->setColumnStretch(1, 1);
-    //finally
+    mainLayout->addWidget(trackTitle, 0, 0, 1, 2);
+    mainLayout->addWidget(gamePicture, 1, 0, 1, 2);
+    mainLayout->addWidget(playPauseButton, 2, 0, 1, 1);
+    mainLayout->addWidget(nextButton, 2, 1, 1, 1);
+
+    //Finally
     setLayout(mainLayout);
 
     //Window Title
