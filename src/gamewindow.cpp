@@ -17,6 +17,7 @@ GameWindow::GameWindow(QWidget* parent) : QWidget(parent) {
     //Game Picture
     gamePicture = new QLabel();
     gamePicture->setStyleSheet("border: 2px solid red;");
+    gamePicture->setScaledContents(true);
 
     //Track Title
     trackTitle = new QLabel();
