@@ -34,6 +34,7 @@ Built upon C++, this program uses the Qt (version 6.11.0) framework for implemen
 │   │   └── AlbumTwo.jpg
 │   └── songs.txt        # List of songs (format shown below)
 ├── CMakeLists.txt       # Main cmake file
+├── example.png          # Picture of program example
 └── README.md            # This file
 ```
 
@@ -73,5 +74,8 @@ In no particular order:
     Visually change play, pause, and skip buttons
     Option for art per-song instead of per-album
 ```
+
+#### Example Picture
+![Example](./example.png)
 
 ### Thanks for taking the time to read this :)
