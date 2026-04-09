@@ -23,6 +23,7 @@ GameWindow::GameWindow(QWidget* parent) : QWidget(parent) {
     trackTitle = new QLabel();
     trackTitle->setText("No Track Playing Currently");
     trackTitle->setStyleSheet("color: black; font-size: 32px; border: 2px solid red;");
+    trackTitle->setAlignment(Qt::AlignHCenter);
 
     //Audio stuff
     player = new QMediaPlayer();
@@ -32,9 +33,9 @@ GameWindow::GameWindow(QWidget* parent) : QWidget(parent) {
     //Layout Stuff
     QGridLayout* mainLayout = new QGridLayout();
     mainLayout->addWidget(trackTitle, 0, 0, 1, 2);
-    mainLayout->addWidget(gamePicture, 1, 0, 1, 2);
-    mainLayout->addWidget(playPauseButton, 2, 0, 1, 1);
-    mainLayout->addWidget(nextButton, 2, 1, 1, 1);
+    mainLayout->addWidget(gamePicture, 1, 0, 6, 2);
+    mainLayout->addWidget(playPauseButton, 7, 0, 1, 1);
+    mainLayout->addWidget(nextButton, 7, 1, 1, 1);
 
     //Finally
     setLayout(mainLayout);
