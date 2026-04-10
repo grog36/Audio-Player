@@ -1475,6 +1475,7 @@ CMakeFiles/AudioPlayer.dir/src/gamewindow.cpp.o: /home/grog/Code-Stuff/AudioPlay
   /usr/include/qt6/QtCore/QCryptographicHash \
   /usr/include/qt6/QtCore/QDeadlineTimer \
   /usr/include/qt6/QtCore/QEvent \
+  /usr/include/qt6/QtCore/QFile \
   /usr/include/qt6/QtCore/QFlags \
   /usr/include/qt6/QtCore/QHash \
   /usr/include/qt6/QtCore/QIODevice \
@@ -3422,6 +3423,8 @@ CMakeFiles/AudioPlayer.dir/src/main.cpp.o: /home/grog/Code-Stuff/AudioPlayer/src
 /usr/include/qt6/QtGui/QShortcut:
 
 /usr/include/qt6/QtGui/QActionGroup:
+
+/usr/include/qt6/QtCore/QFile:
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++io.h:
 

@@ -3,6 +3,7 @@
 #include <fstream> //File reading
 #include <random> //For random number generation
 #include <chrono> //For random number generation
+#include <QFile> //File operations 
 
 //Constructor
 GameWindow::GameWindow(QWidget* parent) : QWidget(parent) {
@@ -177,32 +178,41 @@ std::string GameWindow::getNextSong() {
 
     //Does some substring magic to find and update gameName and songName
     int lastSlashIndex = nextSongPath.find_last_of('/');
-    std::string songName = nextSongPath.substr(lastSlashIndex + 1);
+    currentSongName = nextSongPath.substr(lastSlashIndex + 1);
     int slashIndexBeforeGame = nextSongPath.find_last_of('/', lastSlashIndex - 1);
     gameName = nextSongPath.substr(slashIndexBeforeGame + 1, (lastSlashIndex - slashIndexBeforeGame - 1));
 
     //Updates screen accordingly
-    trackTitle->setText(QString::fromStdString(gameName) + " : " + QString::fromStdString(songName));
+    trackTitle->setText(QString::fromStdString(gameName) + " : " + QString::fromStdString(currentSongName));
+
+    //Gets rid of the file extension on song name
+    currentSongName = currentSongName.substr(0, currentSongName.find("."));
 
     return nextSongPath;
 }
 
 /**
- * @brief Updates the game picture based off of the current game
- */
+* @brief Updates the game picture based off of the current game
+*/
 void GameWindow::getGame() {
     //Edits the filepath to simplify process
     qsizetype whereToTruncate = filepath.lastIndexOf("/");
     filepath.truncate(whereToTruncate);
     qsizetype startOfDir = filepath.lastIndexOf("/");
-
+    
     //Grabs the path of the picture
     QString picturePath;
     picturePath.append(filepath);
     picturePath.append("/");
     picturePath.append(gameName);
     picturePath.append(".jpg");
-
+    
     //Updates the on-screen picture accordingly
-    gamePicture->setPixmap(QPixmap(picturePath));
+    std::string songImagePath = filepath.toStdString() + "/" + currentSongName + ".jpg";
+    if (QFile::exists(QString::fromStdString(songImagePath))) {
+        gamePicture->setPixmap(QPixmap(QString::fromStdString(songImagePath)));
+    }
+    else if (QFile::exists(picturePath)) {
+        gamePicture->setPixmap(QPixmap(picturePath));
+    }
 }

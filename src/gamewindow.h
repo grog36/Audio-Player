@@ -25,6 +25,7 @@ class GameWindow : public QWidget {
         //Backend Song List
         std::vector<std::string> songList;
         std::queue<std::string> songQueue;
+        std::string currentSongName;
 
         //Media Control Buttons
         QPushButton* playPauseButton;
